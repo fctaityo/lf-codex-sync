@@ -1,0 +1,111 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://raw.githubusercontent.com/fctaityo/lf-codex-sync/main/sync/schema/current.schema.json",
+  "title": "LF CODEX Linkage Current Recovery Projection",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "schema_version", "project_id", "snapshot_id", "generated_at", "source_sync_id",
+    "source_internal_commit_sha", "supersedes_snapshot_id", "projection_state",
+    "project", "active_work", "reference_implementations", "foundry_core", "recovery"
+  ],
+  "properties": {
+    "schema_version": {"type": "string", "pattern": "^1(?:\\.[0-9]+)?$"},
+    "project_id": {"type": "string", "const": "LOCAL-AI-FOUNDRY"},
+    "snapshot_id": {"type": "string", "pattern": "^SYNC-PUBLIC-[A-Z0-9._-]+$"},
+    "generated_at": {"type": "string", "format": "date-time"},
+    "source_sync_id": {"type": "string", "minLength": 1, "maxLength": 128},
+    "source_internal_commit_sha": {"type": "string", "pattern": "^[0-9a-fA-F]{40}$"},
+    "supersedes_snapshot_id": {
+      "oneOf": [
+        {"type": "null"},
+        {"type": "string", "pattern": "^SYNC-PUBLIC-[A-Z0-9._-]+$"}
+      ]
+    },
+    "projection_state": {
+      "type": "string",
+      "enum": ["FORMAL_LAST_SYNCHRONIZED_CURRENT", "PUBLIC_RECOVERY_PENDING", "STALE"]
+    },
+    "project": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "project_state", "active_baseline", "current_phase", "current_vector",
+        "project_next_action", "project_required_human_decision"
+      ],
+      "properties": {
+        "project_state": {"type": "string", "minLength": 1, "maxLength": 128},
+        "active_baseline": {"type": "string", "minLength": 1, "maxLength": 128},
+        "current_phase": {"type": "string", "minLength": 1, "maxLength": 256},
+        "current_vector": {"type": "string", "minLength": 1, "maxLength": 512},
+        "project_next_action": {"type": ["string", "null"], "maxLength": 1024},
+        "project_required_human_decision": {"type": ["string", "null"], "maxLength": 1024}
+      }
+    },
+    "active_work": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "initiative", "status", "completed_checkpoint", "initiative_next_action",
+        "blocker", "initiative_human_decision"
+      ],
+      "properties": {
+        "initiative": {"type": "string", "minLength": 1, "maxLength": 256},
+        "status": {"type": "string", "minLength": 1, "maxLength": 256},
+        "completed_checkpoint": {"type": ["string", "null"], "maxLength": 2048},
+        "initiative_next_action": {"type": ["string", "null"], "maxLength": 1024},
+        "blocker": {"type": ["string", "null"], "maxLength": 1024},
+        "initiative_human_decision": {"type": ["string", "null"], "maxLength": 1024}
+      }
+    },
+    "reference_implementations": {
+      "type": "array",
+      "maxItems": 100,
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": ["id", "domain", "current_role", "implementation_state", "acceptance", "current_implementation"],
+        "properties": {
+          "id": {"type": "string", "pattern": "^RI#[0-9]+$"},
+          "domain": {"type": "string", "minLength": 1, "maxLength": 256},
+          "current_role": {"type": "string", "minLength": 1, "maxLength": 256},
+          "implementation_state": {"type": "string", "minLength": 1, "maxLength": 256},
+          "acceptance": {"type": ["string", "null"], "maxLength": 256},
+          "current_implementation": {"type": ["string", "null"], "maxLength": 256}
+        }
+      }
+    },
+    "foundry_core": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["confirmed_core", "current_development_phase"],
+      "properties": {
+        "confirmed_core": {
+          "type": "array",
+          "maxItems": 100,
+          "items": {
+            "type": "object",
+            "additionalProperties": false,
+            "required": ["id", "name", "status"],
+            "properties": {
+              "id": {"type": "string", "pattern": "^FC-CORE-[0-9]{3}$"},
+              "name": {"type": "string", "maxLength": 256},
+              "status": {"type": "string", "enum": ["CORE CONFIRMED"]}
+            }
+          }
+        },
+        "current_development_phase": {"type": ["string", "null"], "maxLength": 512}
+      }
+    },
+    "recovery": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["public_boundary_class", "source_scope", "recovery_level"],
+      "properties": {
+        "public_boundary_class": {"type": "string", "const": "CODEX-LINKAGE-PUBLIC-GIT-RECOVERY"},
+        "source_scope": {"type": "string", "const": "INTERNAL_FORMAL_CURRENT"},
+        "recovery_level": {"type": "string", "enum": ["R0"]}
+      }
+    }
+  }
+}

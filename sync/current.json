@@ -1,0 +1,75 @@
+{
+  "active_work": {
+    "blocker": "Final Commit Check / Internal Commit Authorization Pending。Public RepositoryはPhase Bまで未作成",
+    "completed_checkpoint": "Phase A Human / AI Complete Review PASS、BF-A01〜BF-A04 RESOLVED、Generator / Schema / Validator / Boundary / Current Projection MeaningをSemantic Freeze",
+    "initiative": "CODEX連携 CL-02 / Public Git Sync Bridge Initial Activation",
+    "initiative_human_decision": "Phase A MeaningはSemantic Freeze。Phase B publishable projectionは指定Internal CommitとActual HEADの一致、および読み込む全Formal SourceがそのHEADに対してcleanであることを送出前に機械検証する。dirty Working Treeへ旧Commit SHAをBindingしない",
+    "initiative_next_action": "Phase A Final Commit Check → Human Commit Authorization → Internal Commit → Phase B Public Activation / GitHub Read Verify / External Boot Reflection / Recovery Acceptance",
+    "status": "Phase A / COMPLETE_REVIEW PASS / Semantic Freeze / FINAL_COMMIT_CHECK Pending（Project State Published、Active Baseline BL-20260801-001、Foundry Core Current Vectorは不変）"
+  },
+  "foundry_core": {
+    "confirmed_core": [
+      {
+        "id": "FC-CORE-001",
+        "name": "Runtime Capability Calibration",
+        "status": "CORE CONFIRMED"
+      }
+    ],
+    "current_development_phase": "CROSS-RI EVIDENCE → FOUNDRY CORE EXTRACTION"
+  },
+  "generated_at": "2026-08-22T04:34:24Z",
+  "project": {
+    "active_baseline": "BL-20260801-001",
+    "current_phase": "CODEX連携 CL-02 / Public Git Sync Bridge Initial Activation / Phase A",
+    "current_vector": "CROSS-RI EVIDENCE → FOUNDRY CORE EXTRACTION",
+    "project_next_action": "CL-02 Phase A Final Commit Packageの確認とHuman Commit Authorization",
+    "project_required_human_decision": "Phase A MeaningはSemantic Freeze。Phase Bではsource_internal_commit_shaと実際に読み込むFormal SourceのCommit Identity一致を送出前に検証し、dirty Working Treeへ旧Commit SHAをBindingしない",
+    "project_state": "Published"
+  },
+  "project_id": "LOCAL-AI-FOUNDRY",
+  "projection_state": "FORMAL_LAST_SYNCHRONIZED_CURRENT",
+  "recovery": {
+    "public_boundary_class": "CODEX-LINKAGE-PUBLIC-GIT-RECOVERY",
+    "recovery_level": "R0",
+    "source_scope": "INTERNAL_FORMAL_CURRENT"
+  },
+  "reference_implementations": [
+    {
+      "acceptance": "Current Runtime Acceptance対象外",
+      "current_implementation": "Historical Dify / Ollama / n8n / ComfyUI implementation",
+      "current_role": "FROZEN / HISTORICAL BENCHMARK",
+      "domain": "Article Production",
+      "id": "RI#1",
+      "implementation_state": "Historical Evidence Preserved"
+    },
+    {
+      "acceptance": "LIVE ACCEPTANCE PENDING",
+      "current_implementation": "Documentation Production v0.34",
+      "current_role": "CORE CONTRIBUTOR",
+      "domain": "Documentation Production",
+      "id": "RI#2",
+      "implementation_state": "IMPLEMENTATION VERIFIED"
+    },
+    {
+      "acceptance": "PRODUCTION ACCEPTANCE NOT REACHED",
+      "current_implementation": "FoundryConsole v0.49",
+      "current_role": "RUNTIME VALIDATED / CORE CONTRIBUTOR",
+      "domain": "Visual Asset Production",
+      "id": "RI#3",
+      "implementation_state": "Human-facing Control Surface / Current Implementation"
+    },
+    {
+      "acceptance": "ACTIVE VALIDATION",
+      "current_implementation": "Temporal Entity Integrity v0.43",
+      "current_role": "ACTIVE VALIDATION / CURRENT FRONTIER",
+      "domain": "Research-Grounded Long-form Content Production",
+      "id": "RI#4",
+      "implementation_state": "Current Package / Capability"
+    }
+  ],
+  "schema_version": "1.0",
+  "snapshot_id": "SYNC-PUBLIC-CL02-INITIAL",
+  "source_internal_commit_sha": "de0b461713b2bfa7681403defb523603137ea252",
+  "source_sync_id": "CL02-PHASE-B-INITIAL-ACTIVATION",
+  "supersedes_snapshot_id": null
+}
