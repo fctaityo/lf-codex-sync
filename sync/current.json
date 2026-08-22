@@ -1,11 +1,11 @@
 {
   "active_work": {
-    "blocker": "Internal CandidateにBlockerなし。Public human-facing CurrentへのCore set反映はHUMAN PUBLICATION DECISION REQUIRED",
-    "completed_checkpoint": "CL-03 TERMINAL / PASS。Phase 3C Human DecisionによりFC-CORE-002 Delegation Contract Binding、FC-CORE-003 Deterministic Technical Gate、FC-CORE-004 Evidence TraceabilityをCORE CONFIRMEDとして採用。FC-CORE-001は意味不変",
-    "initiative": "Foundry Core Phase 3C / Human Core Adoption Formal Reflection",
-    "initiative_human_decision": "FC-CORE-002〜004をADOPT AS CORE。Review Binding IntegrityはCANDIDATE — STRONG、その他の非採用Candidateも現分類を維持",
-    "initiative_next_action": "Phase 3C Final Commit PackageのHuman Review / Internal Commit Authorization",
-    "status": "FINAL_COMMIT_CHECK READY（Semantic Freeze済み。Project State Published、Active Baseline BL-20260801-001、Current Vector不変）"
+    "blocker": "NONE",
+    "completed_checkpoint": "FC-CORE-002〜004のInternal Formalization、Public Recovery confirmed_core 4-Core同期、Public Human-facing Docs / Website同期とGitHub/raw Read-Backを完了。FC-CORE-001は意味不変",
+    "initiative": "Foundry Core Phase 3C / Human Core Adoption Closure",
+    "initiative_human_decision": "FC-CORE-002〜004 ADOPT AS CORE、Human Publication Decision APPROVED / EXECUTED。Review Binding IntegrityはCANDIDATE — STRONGを維持",
+    "initiative_next_action": "Foundry Core Extraction次工程（次CandidateのEvidence assessment / Human Decision preparation）",
+    "status": "TERMINAL / PASS（Project State Published、Active Baseline BL-20260801-001、Current Vector不変）"
   },
   "foundry_core": {
     "confirmed_core": [
@@ -32,13 +32,13 @@
     ],
     "current_development_phase": "CROSS-RI EVIDENCE → FOUNDRY CORE EXTRACTION"
   },
-  "generated_at": "2026-08-22T08:03:57Z",
+  "generated_at": "2026-08-22T08:14:58Z",
   "project": {
     "active_baseline": "BL-20260801-001",
-    "current_phase": "Foundry Core Phase 3C Human Adoption / Formal Reflection `FINAL_COMMIT_CHECK READY`",
+    "current_phase": "Foundry Core Phase 3C Human Adoption `TERMINAL / PASS`",
     "current_vector": "CROSS-RI EVIDENCE → FOUNDRY CORE EXTRACTION",
-    "project_next_action": "Phase 3C Final Commit PackageのHuman Review / Internal Commit Authorization",
-    "project_required_human_decision": "FC-CORE-002 Delegation Contract Binding、FC-CORE-003 Deterministic Technical Gate、FC-CORE-004 Evidence TraceabilityをADOPT AS CORE。Review Binding IntegrityはCANDIDATE — STRONGのまま",
+    "project_next_action": "Foundry Core Extraction次工程（次CandidateのEvidence assessment / Human Decision preparation）",
+    "project_required_human_decision": "FC-CORE-002〜004のADOPT AS COREおよびHuman Publication DecisionはAPPROVED / EXECUTED。Review Binding IntegrityはCANDIDATE — STRONGのまま",
     "project_state": "Published"
   },
   "project_id": "LOCAL-AI-FOUNDRY",
@@ -83,8 +83,8 @@
     }
   ],
   "schema_version": "1.0",
-  "snapshot_id": "SYNC-PUBLIC-P3C-CORE-ADOPTION",
-  "source_internal_commit_sha": "f6884c9eaa121fbadb5ce7aaf788e9552adc0a0f",
-  "source_sync_id": "FOUNDRY-CORE-P3C-HUMAN-ADOPTION",
-  "supersedes_snapshot_id": "SYNC-PUBLIC-CL03-CLOSURE"
+  "snapshot_id": "SYNC-PUBLIC-P3C-TERMINAL",
+  "source_internal_commit_sha": "31d8d62efdb8a3e427fbcb5b9ba50a2f0e6cd069",
+  "source_sync_id": "FOUNDRY-CORE-P3C-TERMINAL",
+  "supersedes_snapshot_id": "SYNC-PUBLIC-P3C-CORE-ADOPTION"
 }
