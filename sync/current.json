@@ -1,11 +1,11 @@
 {
   "active_work": {
     "blocker": "NONE",
-    "completed_checkpoint": "FC-CORE-002〜004のInternal Formalization、Public Recovery confirmed_core 4-Core同期、Public Human-facing Docs / Website同期とGitHub/raw Read-Backを完了。FC-CORE-001は意味不変",
-    "initiative": "Foundry Core Phase 3C / Human Core Adoption Closure",
-    "initiative_human_decision": "FC-CORE-002〜004 ADOPT AS CORE、Human Publication Decision APPROVED / EXECUTED。Review Binding IntegrityはCANDIDATE — STRONGを維持",
-    "initiative_next_action": "Foundry Core Extraction次工程（次CandidateのEvidence assessment / Human Decision preparation）",
-    "status": "TERMINAL / PASS（Project State Published、Active Baseline BL-20260801-001、Current Vector不変）"
+    "completed_checkpoint": "Research Recall adjustment runtime-validated / quality improvement confirmed",
+    "initiative": "RI #4 Research Quality / Retrieval Recall + RI #5 Control Plane Hardening",
+    "initiative_human_decision": "Execution stability review required / Production Acceptance not granted",
+    "initiative_next_action": "Execution stability review",
+    "status": "ACTIVE / QUALITY IMPROVEMENT CONFIRMED / EXECUTION STABILITY REVIEW REQUIRED（Project State Published、Active Baseline BL-20260801-001不変）"
   },
   "foundry_core": {
     "confirmed_core": [
@@ -32,13 +32,13 @@
     ],
     "current_development_phase": "CROSS-RI EVIDENCE → FOUNDRY CORE EXTRACTION"
   },
-  "generated_at": "2026-08-22T08:14:58Z",
+  "generated_at": "2026-08-24T17:50:00+09:00",
   "project": {
     "active_baseline": "BL-20260801-001",
-    "current_phase": "Foundry Core Phase 3C Human Adoption `TERMINAL / PASS`",
+    "current_phase": "RI #4 Research Quality / Retrieval Recall + RI #5 Control Plane Hardening",
     "current_vector": "CROSS-RI EVIDENCE → FOUNDRY CORE EXTRACTION",
-    "project_next_action": "Foundry Core Extraction次工程（次CandidateのEvidence assessment / Human Decision preparation）",
-    "project_required_human_decision": "FC-CORE-002〜004のADOPT AS COREおよびHuman Publication DecisionはAPPROVED / EXECUTED。Review Binding IntegrityはCANDIDATE — STRONGのまま",
+    "project_next_action": "Execution stability review",
+    "project_required_human_decision": "Execution stability review required / Production Acceptance not granted",
     "project_state": "Published"
   },
   "project_id": "LOCAL-AI-FOUNDRY",
@@ -74,17 +74,25 @@
       "implementation_state": "Human-facing Control Surface / Current Implementation"
     },
     {
-      "acceptance": "ACTIVE VALIDATION",
-      "current_implementation": "Temporal Entity Integrity v0.43",
-      "current_role": "ACTIVE VALIDATION / CURRENT FRONTIER",
+      "acceptance": "PRODUCTION ACCEPTANCE NOT REACHED",
+      "current_implementation": "Current Runtime v0.55",
+      "current_role": "ACTIVE VALIDATION / RESEARCH QUALITY FRONTIER",
       "domain": "Research-Grounded Long-form Content Production",
       "id": "RI#4",
-      "implementation_state": "Current Package / Capability"
+      "implementation_state": "Research Recall adjustment runtime-validated / Quality Improvement Confirmed / Execution Stability Review Required"
+    },
+    {
+      "acceptance": "CONTROL PLANE ACCEPTANCE PENDING",
+      "current_implementation": "Current Runtime v0.52",
+      "current_role": "CONTROL PLANE / ACTIVE VALIDATION",
+      "domain": "Foundry Control Plane",
+      "id": "RI#5",
+      "implementation_state": "Campaign完走、Evidence collect / bind / monitor / compare / project、Human Intervention"
     }
   ],
   "schema_version": "1.0",
-  "snapshot_id": "SYNC-PUBLIC-P3C-TERMINAL",
-  "source_internal_commit_sha": "31d8d62efdb8a3e427fbcb5b9ba50a2f0e6cd069",
-  "source_sync_id": "FOUNDRY-CORE-P3C-TERMINAL",
-  "supersedes_snapshot_id": "SYNC-PUBLIC-P3C-CORE-ADOPTION"
+  "snapshot_id": "SYNC-PUBLIC-RI45-DEPTH8-CLOSURE",
+  "source_internal_commit_sha": "ade79c0daf51b280b3f2a9e66894208acde0f6f2",
+  "source_sync_id": "SYNC-RI45-DEPTH8-CLOSURE",
+  "supersedes_snapshot_id": "SYNC-PUBLIC-P3C-TERMINAL"
 }
