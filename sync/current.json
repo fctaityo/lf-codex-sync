@@ -1,11 +1,11 @@
 {
   "active_work": {
     "blocker": "NONE",
-    "completed_checkpoint": "Research Recall adjustment runtime-validated / quality improvement confirmed",
-    "initiative": "RI #4 Research Quality / Retrieval Recall + RI #5 Control Plane Hardening",
-    "initiative_human_decision": "Execution stability review required / Production Acceptance not granted",
-    "initiative_next_action": "Execution stability review",
-    "status": "ACTIVE / QUALITY IMPROVEMENT CONFIRMED / EXECUTION STABILITY REVIEW REQUIRED（Project State Published、Active Baseline BL-20260801-001不変）"
+    "completed_checkpoint": "Bounded research runtime and control-plane recovery candidate evidence bound / quality improvement confirmed",
+    "initiative": "RI #4 Bounded Research Runtime + RI #5 / LF-EKB Control Plane Hardening",
+    "initiative_human_decision": "Semantic preservation and execution stability review required / Production Acceptance not granted",
+    "initiative_next_action": "Semantic preservation and execution stability review",
+    "status": "ACTIVE / CURRENT CANDIDATE BOUND / SEARCH INTENT SEMANTIC PRESERVATION OPEN（Project State Published、Active Baseline BL-20260801-001不変）"
   },
   "foundry_core": {
     "confirmed_core": [
@@ -32,13 +32,13 @@
     ],
     "current_development_phase": "CROSS-RI EVIDENCE → FOUNDRY CORE EXTRACTION"
   },
-  "generated_at": "2026-08-24T17:50:00+09:00",
+  "generated_at": "2026-08-25T11:47:50Z",
   "project": {
     "active_baseline": "BL-20260801-001",
-    "current_phase": "RI #4 Research Quality / Retrieval Recall + RI #5 Control Plane Hardening",
+    "current_phase": "RI #4 Bounded Research Runtime + RI #5 / LF-EKB Control Plane Hardening",
     "current_vector": "CROSS-RI EVIDENCE → FOUNDRY CORE EXTRACTION",
-    "project_next_action": "Execution stability review",
-    "project_required_human_decision": "Execution stability review required / Production Acceptance not granted",
+    "project_next_action": "Semantic preservation and execution stability review",
+    "project_required_human_decision": "Semantic preservation and execution stability review required / Production Acceptance not granted",
     "project_state": "Published"
   },
   "project_id": "LOCAL-AI-FOUNDRY",
@@ -75,24 +75,24 @@
     },
     {
       "acceptance": "PRODUCTION ACCEPTANCE NOT REACHED",
-      "current_implementation": "Current Runtime v0.55",
-      "current_role": "ACTIVE VALIDATION / RESEARCH QUALITY FRONTIER",
+      "current_implementation": "Current Candidate v0.59",
+      "current_role": "ACTIVE VALIDATION / BOUNDED RESEARCH RUNTIME",
       "domain": "Research-Grounded Long-form Content Production",
       "id": "RI#4",
-      "implementation_state": "Research Recall adjustment runtime-validated / Quality Improvement Confirmed / Execution Stability Review Required"
+      "implementation_state": "Bounded research runtime candidate / Semantic Preservation Open / Production Acceptance Not Reached"
     },
     {
       "acceptance": "CONTROL PLANE ACCEPTANCE PENDING",
-      "current_implementation": "Current Runtime v0.52",
+      "current_implementation": "Current Candidate v0.66 / LF-EKB v0.2",
       "current_role": "CONTROL PLANE / ACTIVE VALIDATION",
       "domain": "Foundry Control Plane",
       "id": "RI#5",
-      "implementation_state": "Campaign完走、Evidence collect / bind / monitor / compare / project、Human Intervention"
+      "implementation_state": "Control-plane and evidence recovery candidate / Production Acceptance Not Reached"
     }
   ],
   "schema_version": "1.0",
-  "snapshot_id": "SYNC-PUBLIC-RI45-DEPTH8-CLOSURE",
-  "source_internal_commit_sha": "ade79c0daf51b280b3f2a9e66894208acde0f6f2",
-  "source_sync_id": "SYNC-RI45-DEPTH8-CLOSURE",
-  "supersedes_snapshot_id": "SYNC-PUBLIC-P3C-TERMINAL"
+  "snapshot_id": "SYNC-PUBLIC-RI45-EKB-20260825",
+  "source_internal_commit_sha": "5faabe00ff7c13fd69eba42b936930d12093445c",
+  "source_sync_id": "SYNC-20260825-001",
+  "supersedes_snapshot_id": "SYNC-PUBLIC-RI45-DEPTH8-CLOSURE"
 }
