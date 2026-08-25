@@ -32,7 +32,7 @@
     ],
     "current_development_phase": "CROSS-RI EVIDENCE → FOUNDRY CORE EXTRACTION"
   },
-  "generated_at": "2026-08-25T11:47:50Z",
+  "generated_at": "2026-08-26T00:00:00+09:00",
   "project": {
     "active_baseline": "BL-20260801-001",
     "current_phase": "RI #4 Bounded Research Runtime + RI #5 / LF-EKB Control Plane Hardening",
@@ -91,8 +91,8 @@
     }
   ],
   "schema_version": "1.0",
-  "snapshot_id": "SYNC-PUBLIC-RI45-EKB-20260825",
-  "source_internal_commit_sha": "5faabe00ff7c13fd69eba42b936930d12093445c",
-  "source_sync_id": "SYNC-20260825-001",
-  "supersedes_snapshot_id": "SYNC-PUBLIC-RI45-DEPTH8-CLOSURE"
+  "snapshot_id": "SYNC-PUBLIC-PROJECTION-CLOSURE-20260826",
+  "source_internal_commit_sha": "62d98eb2c007ba35a5a1ab4a596e46b1edf5fb97",
+  "source_sync_id": "SYNC-20260826-PUBLIC-PROJECTION-CLOSURE",
+  "supersedes_snapshot_id": "SYNC-PUBLIC-RI45-EKB-20260825"
 }
