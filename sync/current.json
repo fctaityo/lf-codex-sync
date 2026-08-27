@@ -1,11 +1,11 @@
 {
   "active_work": {
     "blocker": "NONE",
-    "completed_checkpoint": "Bounded research runtime and control-plane recovery candidate evidence bound / quality improvement confirmed",
+    "completed_checkpoint": "Evidence Explorer and structured human-input candidate machine verification complete / latest runtime campaign evidence bound",
     "initiative": "RI #4 Bounded Research Runtime + RI #5 / LF-EKB Control Plane Hardening",
-    "initiative_human_decision": "Semantic preservation and execution stability review required / Production Acceptance not granted",
-    "initiative_next_action": "Semantic preservation and execution stability review",
-    "status": "ACTIVE / CURRENT CANDIDATE BOUND / SEARCH INTENT SEMANTIC PRESERVATION OPEN（Project State Published、Active Baseline BL-20260801-001不変）"
+    "initiative_human_decision": "Human runtime verification required / Production Acceptance not granted",
+    "initiative_next_action": "Human runtime verification and remaining semantic / editorial gate review",
+    "status": "ACTIVE / CURRENT CANDIDATE BOUND / HUMAN RUNTIME VERIFICATION PENDING（Project State Published、Active Baseline BL-20260801-001不変）"
   },
   "foundry_core": {
     "confirmed_core": [
@@ -32,13 +32,13 @@
     ],
     "current_development_phase": "CROSS-RI EVIDENCE → FOUNDRY CORE EXTRACTION"
   },
-  "generated_at": "2026-08-26T00:00:00+09:00",
+  "generated_at": "2026-08-27T19:24:50+09:00",
   "project": {
     "active_baseline": "BL-20260801-001",
     "current_phase": "RI #4 Bounded Research Runtime + RI #5 / LF-EKB Control Plane Hardening",
     "current_vector": "CROSS-RI EVIDENCE → FOUNDRY CORE EXTRACTION",
-    "project_next_action": "Semantic preservation and execution stability review",
-    "project_required_human_decision": "Semantic preservation and execution stability review required / Production Acceptance not granted",
+    "project_next_action": "Human runtime verification and remaining semantic / editorial gate review",
+    "project_required_human_decision": "Human runtime verification required / Production Acceptance not granted",
     "project_state": "Published"
   },
   "project_id": "LOCAL-AI-FOUNDRY",
@@ -75,24 +75,24 @@
     },
     {
       "acceptance": "PRODUCTION ACCEPTANCE NOT REACHED",
-      "current_implementation": "Current Candidate v0.59",
+      "current_implementation": "Current Candidate v0.64",
       "current_role": "ACTIVE VALIDATION / BOUNDED RESEARCH RUNTIME",
       "domain": "Research-Grounded Long-form Content Production",
       "id": "RI#4",
-      "implementation_state": "Bounded research runtime candidate / Semantic Preservation Open / Production Acceptance Not Reached"
+      "implementation_state": "Structured selection and quality-gate candidate / Semantic and editorial findings open / Production Acceptance Not Reached"
     },
     {
       "acceptance": "CONTROL PLANE ACCEPTANCE PENDING",
-      "current_implementation": "Current Candidate v0.66 / LF-EKB v0.2",
+      "current_implementation": "Current Candidate v0.99 / LF-EKB v0.3",
       "current_role": "CONTROL PLANE / ACTIVE VALIDATION",
       "domain": "Foundry Control Plane",
       "id": "RI#5",
-      "implementation_state": "Control-plane and evidence recovery candidate / Production Acceptance Not Reached"
+      "implementation_state": "Evidence Explorer and control-plane candidate / Human Runtime Verification Pending / Production Acceptance Not Reached"
     }
   ],
   "schema_version": "1.0",
-  "snapshot_id": "SYNC-PUBLIC-PROJECTION-CLOSURE-20260826",
-  "source_internal_commit_sha": "62d98eb2c007ba35a5a1ab4a596e46b1edf5fb97",
-  "source_sync_id": "SYNC-20260826-PUBLIC-PROJECTION-CLOSURE",
-  "supersedes_snapshot_id": "SYNC-PUBLIC-RI45-EKB-20260825"
+  "snapshot_id": "SYNC-PUBLIC-RI-FIVE-V-NINETYNINE-CLOSURE",
+  "source_internal_commit_sha": "e3fcd0d14763add0792c6fe949fd8508f6e702ad",
+  "source_sync_id": "SYNC-RI-FIVE-V-NINETYNINE-PAID-REVISION-TWENTYONE",
+  "supersedes_snapshot_id": "SYNC-PUBLIC-PROJECTION-CLOSURE-20260826"
 }
