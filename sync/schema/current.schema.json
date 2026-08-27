@@ -101,6 +101,24 @@
         "current_development_phase": {"type": ["string", "null"], "maxLength": 512}
       }
     },
+    "paid_pdf": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "production_standard", "page_isolation", "patch_escalation",
+        "visual_baseline_registry", "canonical_authority", "source_binding",
+        "projection_integrity"
+      ],
+      "properties": {
+        "production_standard": {"type": "string", "const": "CURRENT / HUMAN-APPROVED VISUAL-FIRST"},
+        "page_isolation": {"type": "string", "const": "TARGET PAGE EDITABLE / NON-TARGET PAGES FROZEN"},
+        "patch_escalation": {"type": "string", "const": "AFTER TWO CONSECUTIVE HUMAN ACCEPTANCE FAILURES: LOCAL UNIT OR TARGET PAGE RECONSTRUCTION"},
+        "visual_baseline_registry": {"type": "string", "const": "CURRENT / HUMAN ACCEPTANCE AUTHORITY"},
+        "canonical_authority": {"type": "string", "const": "INTERNAL ONLY / PUBLIC READ-ONLY PROJECTION"},
+        "source_binding": {"type": "string", "const": "source_internal_commit_sha"},
+        "projection_integrity": {"type": "string", "const": "sync/current.sha256"}
+      }
+    },
     "recovery": {
       "type": "object",
       "additionalProperties": false,

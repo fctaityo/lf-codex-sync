@@ -32,7 +32,16 @@
     ],
     "current_development_phase": "CROSS-RI EVIDENCE → FOUNDRY CORE EXTRACTION"
   },
-  "generated_at": "2026-08-27T19:24:50+09:00",
+  "generated_at": "2026-08-27T20:10:12+09:00",
+  "paid_pdf": {
+    "canonical_authority": "INTERNAL ONLY / PUBLIC READ-ONLY PROJECTION",
+    "page_isolation": "TARGET PAGE EDITABLE / NON-TARGET PAGES FROZEN",
+    "patch_escalation": "AFTER TWO CONSECUTIVE HUMAN ACCEPTANCE FAILURES: LOCAL UNIT OR TARGET PAGE RECONSTRUCTION",
+    "production_standard": "CURRENT / HUMAN-APPROVED VISUAL-FIRST",
+    "projection_integrity": "sync/current.sha256",
+    "source_binding": "source_internal_commit_sha",
+    "visual_baseline_registry": "CURRENT / HUMAN ACCEPTANCE AUTHORITY"
+  },
   "project": {
     "active_baseline": "BL-20260801-001",
     "current_phase": "RI #4 Bounded Research Runtime + RI #5 / LF-EKB Control Plane Hardening",
@@ -91,8 +100,8 @@
     }
   ],
   "schema_version": "1.0",
-  "snapshot_id": "SYNC-PUBLIC-RI-FIVE-V-NINETYNINE-CLOSURE",
-  "source_internal_commit_sha": "e3fcd0d14763add0792c6fe949fd8508f6e702ad",
-  "source_sync_id": "SYNC-RI-FIVE-V-NINETYNINE-PAID-REVISION-TWENTYONE",
-  "supersedes_snapshot_id": "SYNC-PUBLIC-PROJECTION-CLOSURE-20260826"
+  "snapshot_id": "SYNC-PUBLIC-PAID-PDF-PAGE-ISOLATION",
+  "source_internal_commit_sha": "dd1b8596e85399f6240107ccb479056fdc6f4259",
+  "source_sync_id": "PAID-PDF-PAGE-ISOLATION",
+  "supersedes_snapshot_id": "SYNC-PUBLIC-RI-FIVE-V-NINETYNINE-CLOSURE"
 }
