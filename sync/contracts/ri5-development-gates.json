@@ -1,0 +1,72 @@
+{
+  "applies_to": [
+    "RI5_IMPLEMENTATION",
+    "RI5_VERIFICATION",
+    "RI5_CANDIDATE_RELEASE",
+    "RI5_HUMAN_RUNTIME_VERIFICATION",
+    "SYNCHRONIZATION_CLOSURE"
+  ],
+  "authority": "INTERNAL CANONICAL / PUBLIC READ-ONLY PROJECTION",
+  "contract_id": "LF-RI5-DEVELOPMENT-GATES",
+  "contract_name": "RI#5 Development and Candidate Release Gates",
+  "mandatory_rules": [
+    {
+      "requirement": "Recover Actual Internal Current and all mandatory projections before implementation; missing or inconsistent binding blocks work.",
+      "rule_id": "RI5-CURRENT-SOURCE-001",
+      "severity": "BLOCKING"
+    },
+    {
+      "requirement": "Test-count PASS alone is not Candidate release evidence and never grants Human Runtime or Production Acceptance.",
+      "rule_id": "RI5-TEST-COUNT-002",
+      "severity": "BLOCKING"
+    },
+    {
+      "requirement": "Run the Current Candidate anti-regression ledger and preserve every accepted baseline, protected concept, UI behavior, contract, and evidence boundary applicable to the changed path.",
+      "rule_id": "RI5-ANTI-REGRESSION-003",
+      "severity": "BLOCKING"
+    },
+    {
+      "requirement": "Verify changed behavior with applicable positive, negative, failure-path, protected-concept, and baseline-differential checks; collection success or test quantity is insufficient.",
+      "rule_id": "RI5-BEHAVIOR-004",
+      "severity": "BLOCKING"
+    },
+    {
+      "requirement": "Build and release a Candidate only through its Canonical packaging and release gate; any mandatory gate failure blocks Candidate release.",
+      "rule_id": "RI5-PACKAGE-005",
+      "severity": "BLOCKING"
+    },
+    {
+      "requirement": "Machine verification does not consume Human Runtime Authorization or grant acceptance; required Human Runtime Verification must remain explicit and pending until Human-authorized evidence exists.",
+      "rule_id": "RI5-HUMAN-RUNTIME-006",
+      "severity": "BLOCKING"
+    },
+    {
+      "requirement": "Before runtime, prove canonical caller, trigger, endpoint, authentication, input source, target binding, and fresh Human GO; do not invent or substitute a launcher.",
+      "rule_id": "RI5-RUNTIME-PROVENANCE-007",
+      "severity": "BLOCKING"
+    },
+    {
+      "requirement": "Before closure, verify Current Source, exact scope, required derived artifacts, commit identity, predecessor, integrity, push, and remote read-back wherever applicable.",
+      "rule_id": "RI5-SYNC-CLOSURE-008",
+      "severity": "BLOCKING"
+    },
+    {
+      "requirement": "Do not release with unresolved blocking or unknown drift, protected-baseline regression, required validation failure, scope or authority expansion, security/privacy risk, paid-content leakage, or missing Human decision.",
+      "rule_id": "RI5-RELEASE-BLOCKERS-009",
+      "severity": "BLOCKING"
+    }
+  ],
+  "projection_schema_version": "1.0",
+  "projection_state": "FORMAL_LAST_SYNCHRONIZED_CURRENT",
+  "source_contracts": [
+    "Configuration Management",
+    "Definition of Done",
+    "Codex Standard Operating Procedure",
+    "Human + ChatGPT to Codex Synchronization Contract",
+    "Execution Authorization Envelope",
+    "Status Artifact Contract",
+    "Runtime Execution Path Provenance Gate"
+  ],
+  "source_internal_commit_sha": "57f01e0d0ee608a2c96addf3b46b3b685e8cfd56",
+  "supersedes": null
+}

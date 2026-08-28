@@ -119,6 +119,23 @@
         "projection_integrity": {"type": "string", "const": "sync/current.sha256"}
       }
     },
+    "required_contracts": {
+      "type": "array",
+      "maxItems": 32,
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": ["contract_id", "applies_to", "projection_path", "integrity_path", "projection_sha256", "mandatory"],
+        "properties": {
+          "contract_id": {"type": "string", "minLength": 1, "maxLength": 128},
+          "applies_to": {"type": "array", "items": {"type": "string", "minLength": 1, "maxLength": 128}},
+          "projection_path": {"type": "string", "pattern": "^sync/contracts/[a-z0-9-]+\\.json$"},
+          "integrity_path": {"type": "string", "pattern": "^sync/contracts/[a-z0-9-]+\\.sha256$"},
+          "projection_sha256": {"type": "string", "pattern": "^[0-9a-f]{64}$", "x-lf-content-class": "machine-identity"},
+          "mandatory": {"type": "boolean"}
+        }
+      }
+    },
     "recovery": {
       "type": "object",
       "additionalProperties": false,

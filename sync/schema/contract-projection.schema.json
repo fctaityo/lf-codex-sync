@@ -1,0 +1,38 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://raw.githubusercontent.com/fctaityo/lf-codex-sync/main/sync/schema/contract-projection.schema.json",
+  "title": "LF CODEX Linkage Mandatory Contract Projection",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "projection_schema_version", "contract_id", "contract_name", "source_internal_commit_sha",
+    "applies_to", "source_contracts", "mandatory_rules", "supersedes", "projection_state", "authority"
+  ],
+  "properties": {
+    "projection_schema_version": {"type": "string", "const": "1.0"},
+    "contract_id": {"type": "string", "const": "LF-RI5-DEVELOPMENT-GATES"},
+    "contract_name": {"type": "string", "const": "RI#5 Development and Candidate Release Gates"},
+    "source_internal_commit_sha": {"type": "string", "pattern": "^[0-9a-fA-F]{40}$", "x-lf-content-class": "machine-identity"},
+    "applies_to": {
+      "type": "array",
+      "items": {"type": "string", "enum": ["RI5_IMPLEMENTATION", "RI5_VERIFICATION", "RI5_CANDIDATE_RELEASE", "RI5_HUMAN_RUNTIME_VERIFICATION", "SYNCHRONIZATION_CLOSURE"]}
+    },
+    "source_contracts": {"type": "array", "items": {"type": "string", "minLength": 1, "maxLength": 128}},
+    "mandatory_rules": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": ["rule_id", "severity", "requirement"],
+        "properties": {
+          "rule_id": {"type": "string", "pattern": "^RI5-[A-Z-]+-[0-9]{3}$"},
+          "severity": {"type": "string", "const": "BLOCKING"},
+          "requirement": {"type": "string", "minLength": 1, "maxLength": 512}
+        }
+      }
+    },
+    "supersedes": {"type": ["string", "null"], "maxLength": 128},
+    "projection_state": {"type": "string", "enum": ["FORMAL_LAST_SYNCHRONIZED_CURRENT", "PUBLIC_RECOVERY_PENDING"]},
+    "authority": {"type": "string", "const": "INTERNAL CANONICAL / PUBLIC READ-ONLY PROJECTION"}
+  }
+}

@@ -32,7 +32,7 @@
     ],
     "current_development_phase": "CROSS-RI EVIDENCE → FOUNDRY CORE EXTRACTION"
   },
-  "generated_at": "2026-08-27T20:10:12+09:00",
+  "generated_at": "2026-08-29T04:55:34+09:00",
   "paid_pdf": {
     "canonical_authority": "INTERNAL ONLY / PUBLIC READ-ONLY PROJECTION",
     "page_isolation": "TARGET PAGE EDITABLE / NON-TARGET PAGES FROZEN",
@@ -99,9 +99,25 @@
       "implementation_state": "Evidence Explorer and control-plane candidate / Human Runtime Verification Pending / Production Acceptance Not Reached"
     }
   ],
+  "required_contracts": [
+    {
+      "applies_to": [
+        "RI5_IMPLEMENTATION",
+        "RI5_VERIFICATION",
+        "RI5_CANDIDATE_RELEASE",
+        "RI5_HUMAN_RUNTIME_VERIFICATION",
+        "SYNCHRONIZATION_CLOSURE"
+      ],
+      "contract_id": "LF-RI5-DEVELOPMENT-GATES",
+      "integrity_path": "sync/contracts/ri5-development-gates.sha256",
+      "mandatory": true,
+      "projection_path": "sync/contracts/ri5-development-gates.json",
+      "projection_sha256": "a672419dab3d44ae6178382a1751cfa4ad53196e849571c85858bb9b12eecfb4"
+    }
+  ],
   "schema_version": "1.0",
-  "snapshot_id": "SYNC-PUBLIC-PAID-PDF-PAGE-ISOLATION",
-  "source_internal_commit_sha": "dd1b8596e85399f6240107ccb479056fdc6f4259",
-  "source_sync_id": "PAID-PDF-PAGE-ISOLATION",
-  "supersedes_snapshot_id": "SYNC-PUBLIC-RI-FIVE-V-NINETYNINE-CLOSURE"
+  "snapshot_id": "SYNC-PUBLIC-RI5-MANDATORY-CONTRACTS",
+  "source_internal_commit_sha": "57f01e0d0ee608a2c96addf3b46b3b685e8cfd56",
+  "source_sync_id": "RI5-MANDATORY-CONTRACT-PROJECTION",
+  "supersedes_snapshot_id": "SYNC-PUBLIC-PAID-PDF-PAGE-ISOLATION"
 }
