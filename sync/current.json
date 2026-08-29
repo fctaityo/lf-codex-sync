@@ -32,14 +32,19 @@
     ],
     "current_development_phase": "CROSS-RI EVIDENCE → FOUNDRY CORE EXTRACTION"
   },
-  "generated_at": "2026-08-29T10:21:11+09:00",
+  "generated_at": "2026-08-29T08:16:36Z",
   "paid_pdf": {
     "canonical_authority": "INTERNAL ONLY / PUBLIC READ-ONLY PROJECTION",
+    "full_page_raster_pptx": "PROHIBITED",
+    "image_asset_boundary": "ILLUSTRATION / DECORATION / PHOTO ONLY; PRIMARY INFORMATION REMAINS EDITABLE",
     "page_isolation": "TARGET PAGE EDITABLE / NON-TARGET PAGES FROZEN",
     "patch_escalation": "AFTER TWO CONSECUTIVE HUMAN ACCEPTANCE FAILURES: LOCAL UNIT OR TARGET PAGE RECONSTRUCTION",
+    "pptx_editable_source": "REQUIRED / EDITABLE POWERPOINT OBJECTS",
+    "pptx_pdf_pair": "PPTX EDITABLE SOURCE → PDF EXPORT → VISUAL VERIFICATION",
     "production_standard": "CURRENT / HUMAN-APPROVED VISUAL-FIRST",
     "projection_integrity": "sync/current.sha256",
     "source_binding": "source_internal_commit_sha",
+    "typography_authority": "HUMAN ACCEPTED VISUAL BASELINE / NOTO SANS CJK JP CURRENT",
     "visual_baseline_registry": "CURRENT / HUMAN ACCEPTANCE AUTHORITY"
   },
   "project": {
@@ -112,12 +117,12 @@
       "integrity_path": "sync/contracts/ri5-development-gates.sha256",
       "mandatory": true,
       "projection_path": "sync/contracts/ri5-development-gates.json",
-      "projection_sha256": "be3cf358ddbe6819eefd991d1ae47f3d1285c4587a8df1d23d2b9895a249132f"
+      "projection_sha256": "e33867366a6bd4dca7e356c0ec958196ebb992e8d579b3327915b3ec79728eb7"
     }
   ],
   "schema_version": "1.0",
-  "snapshot_id": "SYNC-PUBLIC-RI5-RELEASE-BINDING-CLOSURE",
-  "source_internal_commit_sha": "16c6a8802e8d3304e9a07fc48000348685035427",
-  "source_sync_id": "RI5-RELEASE-CONTRACT-CURRENTIZATION",
-  "supersedes_snapshot_id": "SYNC-PUBLIC-RI5-MANDATORY-CONTRACTS"
+  "snapshot_id": "SYNC-PUBLIC-PAID-VISUAL-ARTIFACT-V1",
+  "source_internal_commit_sha": "886c1b15fce157ae8f71dc2f3c64b946be30a26d",
+  "source_sync_id": "PAID-VISUAL-20260829",
+  "supersedes_snapshot_id": "SYNC-PUBLIC-RI5-RELEASE-BINDING-CLOSURE"
 }

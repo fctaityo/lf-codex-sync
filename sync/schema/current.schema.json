@@ -106,7 +106,9 @@
       "additionalProperties": false,
       "required": [
         "production_standard", "page_isolation", "patch_escalation",
-        "visual_baseline_registry", "canonical_authority", "source_binding",
+        "visual_baseline_registry", "pptx_editable_source", "full_page_raster_pptx",
+        "image_asset_boundary", "pptx_pdf_pair", "typography_authority",
+        "canonical_authority", "source_binding",
         "projection_integrity"
       ],
       "properties": {
@@ -114,6 +116,11 @@
         "page_isolation": {"type": "string", "const": "TARGET PAGE EDITABLE / NON-TARGET PAGES FROZEN"},
         "patch_escalation": {"type": "string", "const": "AFTER TWO CONSECUTIVE HUMAN ACCEPTANCE FAILURES: LOCAL UNIT OR TARGET PAGE RECONSTRUCTION"},
         "visual_baseline_registry": {"type": "string", "const": "CURRENT / HUMAN ACCEPTANCE AUTHORITY"},
+        "pptx_editable_source": {"type": "string", "const": "REQUIRED / EDITABLE POWERPOINT OBJECTS"},
+        "full_page_raster_pptx": {"type": "string", "const": "PROHIBITED"},
+        "image_asset_boundary": {"type": "string", "const": "ILLUSTRATION / DECORATION / PHOTO ONLY; PRIMARY INFORMATION REMAINS EDITABLE"},
+        "pptx_pdf_pair": {"type": "string", "const": "PPTX EDITABLE SOURCE → PDF EXPORT → VISUAL VERIFICATION"},
+        "typography_authority": {"type": "string", "const": "HUMAN ACCEPTED VISUAL BASELINE / NOTO SANS CJK JP CURRENT"},
         "canonical_authority": {"type": "string", "const": "INTERNAL ONLY / PUBLIC READ-ONLY PROJECTION"},
         "source_binding": {"type": "string", "const": "source_internal_commit_sha"},
         "projection_integrity": {"type": "string", "const": "sync/current.sha256"}
