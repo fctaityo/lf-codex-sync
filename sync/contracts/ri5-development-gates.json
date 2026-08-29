@@ -58,6 +58,38 @@
   ],
   "projection_schema_version": "1.0",
   "projection_state": "FORMAL_LAST_SYNCHRONIZED_CURRENT",
+  "release_binding": {
+    "anti_regression_ledger": {
+      "identity": "LF_RI5_ANTI_REGRESSION_FIXTURES_V1.0",
+      "knowledge_basis": "contracts/ANTI-REGRESSION-FIXTURES-v0.63.json",
+      "path": "contracts/ANTI-REGRESSION-FIXTURES-v1.0.json",
+      "policy": "MONOTONIC_PROTECTION_NO_WEAKENING",
+      "sha256": "b77876205f9b72c78322ec8d1d483a786dbfe1796d2743c1993bb7763cb44e5d"
+    },
+    "current_ri4_identity": {
+      "acceptance": "CURRENT_CANDIDATE_MACHINE_VERIFIED_HUMAN_RUNTIME_PENDING",
+      "source_package": "EMBEDDED_RI4_v0.64_PICK_ONE_NOREPEAT_V2",
+      "source_package_sha256": "1fa21da5ef344870985dc8cffc76b7904c30843ebf2a02ea10e35c6a12bd402c",
+      "state_contract": "RI4_FC_STATE_V047",
+      "version": "0.64"
+    },
+    "last_accepted_final": {
+      "filename": "LF-RI5-v0.47-EvidenceTimezoneDependency-Hotfix-FINAL.zip",
+      "sha256": "f0e3797d99d9d0e67e38764d6278106bd37039740c30359e64462b6f1e4e191b",
+      "version": "0.47"
+    },
+    "release_entries": {
+      "anti_regression_gate": "tools/anti_regression_gate.py",
+      "packaging": "tools/build_final.py"
+    },
+    "release_flow": [
+      "CANONICAL_LAST_ACCEPTED_BASELINE",
+      "CURRENT_ANTI_REGRESSION_LEDGER",
+      "ANTI_REGRESSION_GATE",
+      "CANONICAL_PACKAGING",
+      "FINAL"
+    ]
+  },
   "source_contracts": [
     "Configuration Management",
     "Definition of Done",
@@ -67,6 +99,6 @@
     "Status Artifact Contract",
     "Runtime Execution Path Provenance Gate"
   ],
-  "source_internal_commit_sha": "57f01e0d0ee608a2c96addf3b46b3b685e8cfd56",
+  "source_internal_commit_sha": "16c6a8802e8d3304e9a07fc48000348685035427",
   "supersedes": null
 }

@@ -6,7 +6,7 @@
   "additionalProperties": false,
   "required": [
     "projection_schema_version", "contract_id", "contract_name", "source_internal_commit_sha",
-    "applies_to", "source_contracts", "mandatory_rules", "supersedes", "projection_state", "authority"
+    "applies_to", "source_contracts", "release_binding", "mandatory_rules", "supersedes", "projection_state", "authority"
   ],
   "properties": {
     "projection_schema_version": {"type": "string", "const": "1.0"},
@@ -18,6 +18,62 @@
       "items": {"type": "string", "enum": ["RI5_IMPLEMENTATION", "RI5_VERIFICATION", "RI5_CANDIDATE_RELEASE", "RI5_HUMAN_RUNTIME_VERIFICATION", "SYNCHRONIZATION_CLOSURE"]}
     },
     "source_contracts": {"type": "array", "items": {"type": "string", "minLength": 1, "maxLength": 128}},
+    "release_binding": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["last_accepted_final", "current_ri4_identity", "anti_regression_ledger", "release_entries", "release_flow"],
+      "properties": {
+        "last_accepted_final": {
+          "type": "object",
+          "additionalProperties": false,
+          "required": ["version", "filename", "sha256"],
+          "properties": {
+            "version": {"type": "string", "const": "0.47"},
+            "filename": {"type": "string", "const": "LF-RI5-v0.47-EvidenceTimezoneDependency-Hotfix-FINAL.zip"},
+            "sha256": {"type": "string", "pattern": "^[0-9a-f]{64}$", "x-lf-content-class": "machine-identity"}
+          }
+        },
+        "current_ri4_identity": {
+          "type": "object",
+          "additionalProperties": false,
+          "required": ["version", "state_contract", "source_package", "source_package_sha256", "acceptance"],
+          "properties": {
+            "version": {"type": "string", "const": "0.64"},
+            "state_contract": {"type": "string", "const": "RI4_FC_STATE_V047"},
+            "source_package": {"type": "string", "const": "EMBEDDED_RI4_v0.64_PICK_ONE_NOREPEAT_V2"},
+            "source_package_sha256": {"type": "string", "pattern": "^[0-9a-f]{64}$", "x-lf-content-class": "machine-identity"},
+            "acceptance": {"type": "string", "const": "CURRENT_CANDIDATE_MACHINE_VERIFIED_HUMAN_RUNTIME_PENDING"}
+          }
+        },
+        "anti_regression_ledger": {
+          "type": "object",
+          "additionalProperties": false,
+          "required": ["identity", "path", "sha256", "knowledge_basis", "policy"],
+          "properties": {
+            "identity": {"type": "string", "const": "LF_RI5_ANTI_REGRESSION_FIXTURES_V1.0"},
+            "path": {"type": "string", "const": "contracts/ANTI-REGRESSION-FIXTURES-v1.0.json"},
+            "sha256": {"type": "string", "pattern": "^[0-9a-f]{64}$", "x-lf-content-class": "machine-identity"},
+            "knowledge_basis": {"type": "string", "const": "contracts/ANTI-REGRESSION-FIXTURES-v0.63.json"},
+            "policy": {"type": "string", "const": "MONOTONIC_PROTECTION_NO_WEAKENING"}
+          }
+        },
+        "release_entries": {
+          "type": "object",
+          "additionalProperties": false,
+          "required": ["anti_regression_gate", "packaging"],
+          "properties": {
+            "anti_regression_gate": {"type": "string", "const": "tools/anti_regression_gate.py"},
+            "packaging": {"type": "string", "const": "tools/build_final.py"}
+          }
+        },
+        "release_flow": {
+          "type": "array",
+          "items": {"type": "string", "enum": ["CANONICAL_LAST_ACCEPTED_BASELINE", "CURRENT_ANTI_REGRESSION_LEDGER", "ANTI_REGRESSION_GATE", "CANONICAL_PACKAGING", "FINAL"]},
+          "minItems": 5,
+          "maxItems": 5
+        }
+      }
+    },
     "mandatory_rules": {
       "type": "array",
       "items": {
