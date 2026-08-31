@@ -9,6 +9,24 @@
   "authority": "INTERNAL CANONICAL / PUBLIC READ-ONLY PROJECTION",
   "contract_id": "LF-RI5-DEVELOPMENT-GATES",
   "contract_name": "RI#5 Development and Candidate Release Gates",
+  "evidence_attempt_invariant": {
+    "contract_id": "LF-EVIDENCE-ATTEMPT-INVARIANT",
+    "historical_104321": "HISTORICAL_IMMUTABLE_EVIDENCE_LOST_NOT_CANONICALLY_INGESTIBLE",
+    "human_runtime": "PENDING_NOT_EXECUTED",
+    "persistence_failure_exit_code": "74",
+    "production_binding": "UNCHANGED",
+    "runtime_run_separation": "VALIDATION_SESSION_DOES_NOT_COUNT_AS_RUNTIME_RUN",
+    "status": "CANONICAL_MACHINE_CLOSED",
+    "terminal_order": [
+      "EVIDENCE_SESSION_START",
+      "GATE_OR_RUNTIME",
+      "PASS_FAIL_OR_EXCEPTION",
+      "EVIDENCE_ZIP_FINALIZE",
+      "LF_EKB_PERSIST",
+      "EKB_RECEIPT_READ_BACK_VERIFY",
+      "TERMINAL"
+    ]
+  },
   "mandatory_rules": [
     {
       "requirement": "Recover Actual Internal Current and all mandatory projections before implementation; missing or inconsistent binding blocks work.",
@@ -54,6 +72,11 @@
       "requirement": "Do not release with unresolved blocking or unknown drift, protected-baseline regression, required validation failure, scope or authority expansion, security/privacy risk, paid-content leakage, or missing Human decision.",
       "rule_id": "RI5-RELEASE-BLOCKERS-009",
       "severity": "BLOCKING"
+    },
+    {
+      "requirement": "A Human-originated Attempt is not terminal until its Evidence ZIP is finalized, persisted as the correct LF-EKB truth type, and its immutable receipt and artifact SHA are read back; persistence failure is fail-closed and Pre-Human Validation never increments Runtime Runs.",
+      "rule_id": "RI5-EVIDENCE-ATTEMPT-010",
+      "severity": "BLOCKING"
     }
   ],
   "projection_schema_version": "1.0",
@@ -64,7 +87,7 @@
       "knowledge_basis": "contracts/ANTI-REGRESSION-FIXTURES-v0.63.json",
       "path": "contracts/ANTI-REGRESSION-FIXTURES-v1.0.json",
       "policy": "MONOTONIC_PROTECTION_NO_WEAKENING",
-      "sha256": "e79dc2cfb17dadbe1c3b86e2149e593873002c451d80a546da2fb8e0036d0a23"
+      "sha256": "7b38928592fe1d3fd68cbb9d501d8978d52d0db98774fd431e0ba7ef92066269"
     },
     "current_ri4_identity": {
       "acceptance": "CURRENT_CANDIDATE_MACHINE_VERIFIED_HUMAN_RUNTIME_PENDING",
@@ -99,6 +122,6 @@
     "Status Artifact Contract",
     "Runtime Execution Path Provenance Gate"
   ],
-  "source_internal_commit_sha": "184ca3ada69b8bff2e75e01ff17dc933fa5079ed",
+  "source_internal_commit_sha": "71f92bb16bdaf55d04f91fe7bd7341f904abfa17",
   "supersedes": null
 }

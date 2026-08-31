@@ -6,7 +6,7 @@
   "additionalProperties": false,
   "required": [
     "projection_schema_version", "contract_id", "contract_name", "source_internal_commit_sha",
-    "applies_to", "source_contracts", "release_binding", "mandatory_rules", "supersedes", "projection_state", "authority"
+    "applies_to", "source_contracts", "release_binding", "evidence_attempt_invariant", "mandatory_rules", "supersedes", "projection_state", "authority"
   ],
   "properties": {
     "projection_schema_version": {"type": "string", "const": "1.0"},
@@ -72,6 +72,26 @@
           "minItems": 5,
           "maxItems": 5
         }
+      }
+    },
+    "evidence_attempt_invariant": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["status", "contract_id", "terminal_order", "runtime_run_separation", "persistence_failure_exit_code", "historical_104321", "human_runtime", "production_binding"],
+      "properties": {
+        "status": {"type": "string", "const": "CANONICAL_MACHINE_CLOSED"},
+        "contract_id": {"type": "string", "const": "LF-EVIDENCE-ATTEMPT-INVARIANT"},
+        "terminal_order": {
+          "type": "array",
+          "items": {"type": "string", "enum": ["EVIDENCE_SESSION_START", "GATE_OR_RUNTIME", "PASS_FAIL_OR_EXCEPTION", "EVIDENCE_ZIP_FINALIZE", "LF_EKB_PERSIST", "EKB_RECEIPT_READ_BACK_VERIFY", "TERMINAL"]},
+          "minItems": 7,
+          "maxItems": 7
+        },
+        "runtime_run_separation": {"type": "string", "const": "VALIDATION_SESSION_DOES_NOT_COUNT_AS_RUNTIME_RUN"},
+        "persistence_failure_exit_code": {"type": "string", "const": "74"},
+        "historical_104321": {"type": "string", "const": "HISTORICAL_IMMUTABLE_EVIDENCE_LOST_NOT_CANONICALLY_INGESTIBLE"},
+        "human_runtime": {"type": "string", "const": "PENDING_NOT_EXECUTED"},
+        "production_binding": {"type": "string", "const": "UNCHANGED"}
       }
     },
     "mandatory_rules": {
