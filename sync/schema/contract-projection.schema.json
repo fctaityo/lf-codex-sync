@@ -38,9 +38,9 @@
           "additionalProperties": false,
           "required": ["version", "state_contract", "source_package", "source_package_sha256", "acceptance"],
           "properties": {
-            "version": {"type": "string", "const": "0.64"},
+            "version": {"type": "string", "const": "0.71"},
             "state_contract": {"type": "string", "const": "RI4_FC_STATE_V047"},
-            "source_package": {"type": "string", "const": "EMBEDDED_RI4_v0.64_PICK_ONE_NOREPEAT_V2"},
+            "source_package": {"type": "string", "const": "EMBEDDED_RI4_v0.71_SEMANTIC_QUALITY_HARDENING"},
             "source_package_sha256": {"type": "string", "pattern": "^[0-9a-f]{64}$", "x-lf-content-class": "machine-identity"},
             "acceptance": {"type": "string", "const": "CURRENT_CANDIDATE_MACHINE_VERIFIED_HUMAN_RUNTIME_PENDING"}
           }

@@ -32,7 +32,7 @@
     ],
     "current_development_phase": "CROSS-RI EVIDENCE → FOUNDRY CORE EXTRACTION"
   },
-  "generated_at": "2026-08-29T08:16:36Z",
+  "generated_at": "2026-08-31T00:11:36Z",
   "paid_pdf": {
     "canonical_authority": "INTERNAL ONLY / PUBLIC READ-ONLY PROJECTION",
     "full_page_raster_pptx": "PROHIBITED",
@@ -89,7 +89,7 @@
     },
     {
       "acceptance": "PRODUCTION ACCEPTANCE NOT REACHED",
-      "current_implementation": "Current Candidate v0.64",
+      "current_implementation": "Current Candidate v0.71",
       "current_role": "ACTIVE VALIDATION / BOUNDED RESEARCH RUNTIME",
       "domain": "Research-Grounded Long-form Content Production",
       "id": "RI#4",
@@ -117,12 +117,12 @@
       "integrity_path": "sync/contracts/ri5-development-gates.sha256",
       "mandatory": true,
       "projection_path": "sync/contracts/ri5-development-gates.json",
-      "projection_sha256": "e33867366a6bd4dca7e356c0ec958196ebb992e8d579b3327915b3ec79728eb7"
+      "projection_sha256": "96c636a36d24ba721cfd11cd68f7eb64c9c6adbf73dd7f1960a217c9b1b3836a"
     }
   ],
   "schema_version": "1.0",
-  "snapshot_id": "SYNC-PUBLIC-PAID-VISUAL-ARTIFACT-V1",
-  "source_internal_commit_sha": "886c1b15fce157ae8f71dc2f3c64b946be30a26d",
-  "source_sync_id": "PAID-VISUAL-20260829",
-  "supersedes_snapshot_id": "SYNC-PUBLIC-RI5-RELEASE-BINDING-CLOSURE"
+  "snapshot_id": "SYNC-PUBLIC-RI5-B011-FORMAL-CLOSURE",
+  "source_internal_commit_sha": "184ca3ada69b8bff2e75e01ff17dc933fa5079ed",
+  "source_sync_id": "RI5-B011-FORMAL-CURRENTIZATION",
+  "supersedes_snapshot_id": "SYNC-PUBLIC-PAID-VISUAL-ARTIFACT-V1"
 }
