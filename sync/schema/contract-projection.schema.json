@@ -77,7 +77,7 @@
     "evidence_attempt_invariant": {
       "type": "object",
       "additionalProperties": false,
-      "required": ["status", "contract_id", "terminal_order", "runtime_run_separation", "persistence_failure_exit_code", "historical_104321", "human_runtime", "production_binding"],
+      "required": ["status", "contract_id", "terminal_order", "runtime_run_separation", "persistence_failure_exit_code", "historical_104321", "cp932_console_regression", "v2_entry_cli_binding", "v2_entry_canonical_output", "human_runtime", "production_binding"],
       "properties": {
         "status": {"type": "string", "const": "CANONICAL_MACHINE_CLOSED"},
         "contract_id": {"type": "string", "const": "LF-EVIDENCE-ATTEMPT-INVARIANT"},
@@ -90,6 +90,9 @@
         "runtime_run_separation": {"type": "string", "const": "VALIDATION_SESSION_DOES_NOT_COUNT_AS_RUNTIME_RUN"},
         "persistence_failure_exit_code": {"type": "string", "const": "74"},
         "historical_104321": {"type": "string", "const": "HISTORICAL_IMMUTABLE_EVIDENCE_LOST_NOT_CANONICALLY_INGESTIBLE"},
+        "cp932_console_regression": {"type": "string", "const": "MACHINE_CLOSED"},
+        "v2_entry_cli_binding": {"type": "string", "const": "FIXED_OUTPUT_NO_CALLER_OUT_ARGUMENT"},
+        "v2_entry_canonical_output": {"type": "string", "const": "verification/V2-ENTRY-E2E-RESULT.json"},
         "human_runtime": {"type": "string", "const": "PENDING_NOT_EXECUTED"},
         "production_binding": {"type": "string", "const": "UNCHANGED"}
       }

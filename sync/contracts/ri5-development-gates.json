@@ -11,6 +11,7 @@
   "contract_name": "RI#5 Development and Candidate Release Gates",
   "evidence_attempt_invariant": {
     "contract_id": "LF-EVIDENCE-ATTEMPT-INVARIANT",
+    "cp932_console_regression": "MACHINE_CLOSED",
     "historical_104321": "HISTORICAL_IMMUTABLE_EVIDENCE_LOST_NOT_CANONICALLY_INGESTIBLE",
     "human_runtime": "PENDING_NOT_EXECUTED",
     "persistence_failure_exit_code": "74",
@@ -25,7 +26,9 @@
       "LF_EKB_PERSIST",
       "EKB_RECEIPT_READ_BACK_VERIFY",
       "TERMINAL"
-    ]
+    ],
+    "v2_entry_canonical_output": "verification/V2-ENTRY-E2E-RESULT.json",
+    "v2_entry_cli_binding": "FIXED_OUTPUT_NO_CALLER_OUT_ARGUMENT"
   },
   "mandatory_rules": [
     {
@@ -122,6 +125,6 @@
     "Status Artifact Contract",
     "Runtime Execution Path Provenance Gate"
   ],
-  "source_internal_commit_sha": "71f92bb16bdaf55d04f91fe7bd7341f904abfa17",
+  "source_internal_commit_sha": "144d02b4049d9b43c77f27e50e3e4d3c94d3f0c4",
   "supersedes": null
 }

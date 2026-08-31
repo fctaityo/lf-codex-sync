@@ -2,10 +2,10 @@
   "active_work": {
     "blocker": "NONE",
     "completed_checkpoint": "Evidence Explorer and structured human-input candidate machine verification complete / latest runtime campaign evidence bound",
-    "initiative": "RI #5 Evidence Attempt Invariant Closure",
+    "initiative": "RI #5 Pre-Human cp932 / V2 Entry CLI Binding Closure",
     "initiative_human_decision": "Human runtime verification required / Production Acceptance not granted",
     "initiative_next_action": "Human runtime verification and remaining semantic / editorial gate review",
-    "status": "EVIDENCE ATTEMPT INVARIANT MACHINE CLOSED / HUMAN RUNTIME PENDING（Project State Published、Active Baseline BL-20260801-001不変）"
+    "status": "CP932 / V2 ENTRY CLI BINDING MACHINE CLOSED / HUMAN RUNTIME PENDING（Project State Published、Active Baseline BL-20260801-001不変）"
   },
   "foundry_core": {
     "confirmed_core": [
@@ -32,7 +32,7 @@
     ],
     "current_development_phase": "CROSS-RI EVIDENCE → FOUNDRY CORE EXTRACTION"
   },
-  "generated_at": "2026-08-31T09:00:07Z",
+  "generated_at": "2026-08-31T22:34:44Z",
   "paid_pdf": {
     "canonical_authority": "INTERNAL ONLY / PUBLIC READ-ONLY PROJECTION",
     "full_page_raster_pptx": "PROHIBITED",
@@ -117,12 +117,12 @@
       "integrity_path": "sync/contracts/ri5-development-gates.sha256",
       "mandatory": true,
       "projection_path": "sync/contracts/ri5-development-gates.json",
-      "projection_sha256": "a44d738520106deba134217ab261ab2c35007171366e55684b182aae3f7f9fcd"
+      "projection_sha256": "463d3044c8e60f2b0959d7f6d80d32574a1d8a7dcfd6e8bf3935949a16873e8e"
     }
   ],
   "schema_version": "1.0",
-  "snapshot_id": "SYNC-PUBLIC-RI5-EVIDENCE-ATTEMPT-CLOSURE",
-  "source_internal_commit_sha": "71f92bb16bdaf55d04f91fe7bd7341f904abfa17",
-  "source_sync_id": "RI5-EVIDENCE-ATTEMPT-INVARIANT-CLOSURE",
-  "supersedes_snapshot_id": "SYNC-PUBLIC-RI5-B011-FORMAL-CLOSURE"
+  "snapshot_id": "SYNC-PUBLIC-RI5-PRE-HUMAN-CP932-CLI-CLOSURE",
+  "source_internal_commit_sha": "144d02b4049d9b43c77f27e50e3e4d3c94d3f0c4",
+  "source_sync_id": "RI5-PRE-HUMAN-CP932-CLI-BINDING-CLOSURE",
+  "supersedes_snapshot_id": "SYNC-PUBLIC-RI5-EVIDENCE-ATTEMPT-CLOSURE"
 }
