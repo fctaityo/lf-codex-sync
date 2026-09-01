@@ -90,7 +90,7 @@
       "knowledge_basis": "contracts/ANTI-REGRESSION-FIXTURES-v0.63.json",
       "path": "contracts/ANTI-REGRESSION-FIXTURES-v1.0.json",
       "policy": "MONOTONIC_PROTECTION_NO_WEAKENING",
-      "sha256": "7b38928592fe1d3fd68cbb9d501d8978d52d0db98774fd431e0ba7ef92066269"
+      "sha256": "ae13e3afd220bdf314c43bc411497c7a24e4ed63a5dec26866b2e69b09899426"
     },
     "current_ri4_identity": {
       "acceptance": "CURRENT_CANDIDATE_MACHINE_VERIFIED_HUMAN_RUNTIME_PENDING",
@@ -125,6 +125,17 @@
     "Status Artifact Contract",
     "Runtime Execution Path Provenance Gate"
   ],
-  "source_internal_commit_sha": "144d02b4049d9b43c77f27e50e3e4d3c94d3f0c4",
-  "supersedes": null
+  "source_internal_commit_sha": "573aff809f8845106ca82846a5bcaeb9a190c5d0",
+  "supersedes": null,
+  "v2_compare_semantic_preservation": {
+    "comparison_axis": "USE_CASE",
+    "decision_context": "LOCAL_AI_ENVIRONMENT_USAGE",
+    "entity_type": "MODEL",
+    "generic_deployment_category_comparison": "INSUFFICIENT",
+    "human_runtime": "NOT_EXECUTED",
+    "minimum_comparison_members": 2,
+    "operation": "COMPARE",
+    "production_binding": "UNCHANGED",
+    "status": "CANONICAL_MACHINE_CLOSED"
+  }
 }

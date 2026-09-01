@@ -6,7 +6,7 @@
   "additionalProperties": false,
   "required": [
     "projection_schema_version", "contract_id", "contract_name", "source_internal_commit_sha",
-    "applies_to", "source_contracts", "release_binding", "evidence_attempt_invariant", "mandatory_rules", "supersedes", "projection_state", "authority"
+    "applies_to", "source_contracts", "release_binding", "evidence_attempt_invariant", "v2_compare_semantic_preservation", "mandatory_rules", "supersedes", "projection_state", "authority"
   ],
   "properties": {
     "projection_schema_version": {"type": "string", "const": "1.0"},
@@ -94,6 +94,22 @@
         "v2_entry_cli_binding": {"type": "string", "const": "FIXED_OUTPUT_NO_CALLER_OUT_ARGUMENT"},
         "v2_entry_canonical_output": {"type": "string", "const": "verification/V2-ENTRY-E2E-RESULT.json"},
         "human_runtime": {"type": "string", "const": "PENDING_NOT_EXECUTED"},
+        "production_binding": {"type": "string", "const": "UNCHANGED"}
+      }
+    },
+    "v2_compare_semantic_preservation": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["status", "operation", "comparison_axis", "decision_context", "entity_type", "minimum_comparison_members", "generic_deployment_category_comparison", "human_runtime", "production_binding"],
+      "properties": {
+        "status": {"type": "string", "const": "CANONICAL_MACHINE_CLOSED"},
+        "operation": {"type": "string", "const": "COMPARE"},
+        "comparison_axis": {"type": "string", "const": "USE_CASE"},
+        "decision_context": {"type": "string", "const": "LOCAL_AI_ENVIRONMENT_USAGE"},
+        "entity_type": {"type": "string", "const": "MODEL"},
+        "minimum_comparison_members": {"type": "integer", "minimum": 2},
+        "generic_deployment_category_comparison": {"type": "string", "const": "INSUFFICIENT"},
+        "human_runtime": {"type": "string", "const": "NOT_EXECUTED"},
         "production_binding": {"type": "string", "const": "UNCHANGED"}
       }
     },
