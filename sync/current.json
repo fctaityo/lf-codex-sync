@@ -2,10 +2,10 @@
   "active_work": {
     "blocker": "NONE",
     "completed_checkpoint": "Evidence Explorer and structured human-input candidate machine verification complete / latest runtime campaign evidence bound",
-    "initiative": "RI #5 Session Log Root-Cause Completeness / Campaign Heartbeat Closure",
+    "initiative": "RI #5 V2 Entry E2E Validation Session Carry-Forward Closure",
     "initiative_human_decision": "Human runtime verification required / Production Acceptance not granted",
     "initiative_next_action": "Human runtime verification and remaining semantic / editorial gate review",
-    "status": "SESSION LOG / CAMPAIGN HEARTBEAT MACHINE CLOSED / HUMAN RUNTIME PENDING（Project State Published、Active Baseline BL-20260801-001不変）"
+    "status": "V2 E2E VALIDATION SESSION MACHINE CLOSED / HUMAN RUNTIME PENDING（Project State Published、Active Baseline BL-20260801-001不変）"
   },
   "foundry_core": {
     "confirmed_core": [
@@ -32,7 +32,7 @@
     ],
     "current_development_phase": "CROSS-RI EVIDENCE → FOUNDRY CORE EXTRACTION"
   },
-  "generated_at": "2026-09-01T05:41:37Z",
+  "generated_at": "2026-09-01T14:44:28Z",
   "paid_pdf": {
     "canonical_authority": "INTERNAL ONLY / PUBLIC READ-ONLY PROJECTION",
     "full_page_raster_pptx": "PROHIBITED",
@@ -49,7 +49,7 @@
   },
   "project": {
     "active_baseline": "BL-20260801-001",
-    "current_phase": "RI #5 Session Log Root-Cause / Campaign Heartbeat Machine Closed / Human Runtime Pending",
+    "current_phase": "RI #5 V2 Entry E2E Validation Session Carry-Forward Machine Closed / Human Runtime Pending",
     "current_vector": "CROSS-RI EVIDENCE → FOUNDRY CORE EXTRACTION",
     "project_next_action": "Human runtime verification and remaining semantic / editorial gate review",
     "project_required_human_decision": "Human runtime verification required / Production Acceptance not granted",
@@ -117,12 +117,12 @@
       "integrity_path": "sync/contracts/ri5-development-gates.sha256",
       "mandatory": true,
       "projection_path": "sync/contracts/ri5-development-gates.json",
-      "projection_sha256": "7826c6b5945bf252c7b02833d8d91f18e3182dde3797a72e74e295d12e1ec39d"
+      "projection_sha256": "1485b21dcc11e5c1c2bfd27098957f0bb7047ccda0312c5ce80d481cb484c2b4"
     }
   ],
   "schema_version": "1.0",
-  "snapshot_id": "SYNC-PUBLIC-RI5-SESSION-ROOT-CAUSE-CAMPAIGN-HEARTBEAT-CLOSURE",
-  "source_internal_commit_sha": "07d844d5dff20885298ec29ee297f867017a22d8",
-  "source_sync_id": "RI5-SESSION-ROOT-CAUSE-CAMPAIGN-HEARTBEAT-CLOSURE",
-  "supersedes_snapshot_id": "SYNC-PUBLIC-RI5-V2-COMPARE-SEMANTIC-PRESERVATION-CLOSURE"
+  "snapshot_id": "SYNC-PUBLIC-RI5-V2E2E-VALIDATION-CARRYFORWARD-CLOSURE",
+  "source_internal_commit_sha": "6b1c5314466ed75b92997b25752b7d6f12e57395",
+  "source_sync_id": "RI5-V2E2E-VALIDATION-CARRYFORWARD-CLOSURE",
+  "supersedes_snapshot_id": "SYNC-PUBLIC-RI5-SESSION-ROOT-CAUSE-CAMPAIGN-HEARTBEAT-CLOSURE"
 }

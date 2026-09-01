@@ -90,7 +90,7 @@
       "knowledge_basis": "contracts/ANTI-REGRESSION-FIXTURES-v0.63.json",
       "path": "contracts/ANTI-REGRESSION-FIXTURES-v1.0.json",
       "policy": "MONOTONIC_PROTECTION_NO_WEAKENING",
-      "sha256": "af2abb22955431560bb2ca996a843c0edad64a247c577322d73095331c674a3e"
+      "sha256": "5d460eecf77af97251c87dbef3a1234892156a2df681c6f98504bc41470560f9"
     },
     "current_ri4_identity": {
       "acceptance": "CURRENT_CANDIDATE_MACHINE_VERIFIED_HUMAN_RUNTIME_PENDING",
@@ -137,7 +137,7 @@
     "Status Artifact Contract",
     "Runtime Execution Path Provenance Gate"
   ],
-  "source_internal_commit_sha": "07d844d5dff20885298ec29ee297f867017a22d8",
+  "source_internal_commit_sha": "6b1c5314466ed75b92997b25752b7d6f12e57395",
   "supersedes": null,
   "v2_compare_semantic_preservation": {
     "comparison_axis": "USE_CASE",
@@ -148,6 +148,15 @@
     "minimum_comparison_members": 2,
     "operation": "COMPARE",
     "production_binding": "UNCHANGED",
+    "status": "CANONICAL_MACHINE_CLOSED"
+  },
+  "v2_entry_validation_session_carry_forward": {
+    "counts_as_runtime_run": false,
+    "human_runtime": "NOT_EXECUTED",
+    "persistence": "VALIDATION_ONLY_EKB_RECEIPT_READ_BACK",
+    "production_binding": "UNCHANGED",
+    "runtime_campaign_prefix": "PROHIBITED",
+    "session_identity_prefix": "VAL-V2E2E-",
     "status": "CANONICAL_MACHINE_CLOSED"
   }
 }

@@ -6,7 +6,7 @@
   "additionalProperties": false,
   "required": [
     "projection_schema_version", "contract_id", "contract_name", "source_internal_commit_sha",
-    "applies_to", "source_contracts", "release_binding", "evidence_attempt_invariant", "v2_compare_semantic_preservation", "session_log_root_cause_and_campaign_heartbeat", "mandatory_rules", "supersedes", "projection_state", "authority"
+    "applies_to", "source_contracts", "release_binding", "evidence_attempt_invariant", "v2_compare_semantic_preservation", "session_log_root_cause_and_campaign_heartbeat", "v2_entry_validation_session_carry_forward", "mandatory_rules", "supersedes", "projection_state", "authority"
   ],
   "properties": {
     "projection_schema_version": {"type": "string", "const": "1.0"},
@@ -126,6 +126,20 @@
         "failure_artifact_ui_fallback": {"type": "string", "const": "RI5_FAILURE_DIAGNOSTIC"},
         "campaign_heartbeat": {"type": "string", "const": "INDEPENDENT_PUMP_WHILE_WORKER_ALIVE"},
         "terminal_hold_semantics": {"type": "string", "const": "UNCHANGED"},
+        "human_runtime": {"type": "string", "const": "NOT_EXECUTED"},
+        "production_binding": {"type": "string", "const": "UNCHANGED"}
+      }
+    },
+    "v2_entry_validation_session_carry_forward": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["status", "session_identity_prefix", "runtime_campaign_prefix", "counts_as_runtime_run", "persistence", "human_runtime", "production_binding"],
+      "properties": {
+        "status": {"type": "string", "const": "CANONICAL_MACHINE_CLOSED"},
+        "session_identity_prefix": {"type": "string", "const": "VAL-V2E2E-"},
+        "runtime_campaign_prefix": {"type": "string", "const": "PROHIBITED"},
+        "counts_as_runtime_run": {"type": "boolean", "const": false},
+        "persistence": {"type": "string", "const": "VALIDATION_ONLY_EKB_RECEIPT_READ_BACK"},
         "human_runtime": {"type": "string", "const": "NOT_EXECUTED"},
         "production_binding": {"type": "string", "const": "UNCHANGED"}
       }
