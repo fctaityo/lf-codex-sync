@@ -90,7 +90,7 @@
       "knowledge_basis": "contracts/ANTI-REGRESSION-FIXTURES-v0.63.json",
       "path": "contracts/ANTI-REGRESSION-FIXTURES-v1.0.json",
       "policy": "MONOTONIC_PROTECTION_NO_WEAKENING",
-      "sha256": "ae13e3afd220bdf314c43bc411497c7a24e4ed63a5dec26866b2e69b09899426"
+      "sha256": "af2abb22955431560bb2ca996a843c0edad64a247c577322d73095331c674a3e"
     },
     "current_ri4_identity": {
       "acceptance": "CURRENT_CANDIDATE_MACHINE_VERIFIED_HUMAN_RUNTIME_PENDING",
@@ -116,6 +116,18 @@
       "FINAL"
     ]
   },
+  "session_log_root_cause_and_campaign_heartbeat": {
+    "campaign_heartbeat": "INDEPENDENT_PUMP_WHILE_WORKER_ALIVE",
+    "failure_artifact_ui_fallback": "RI5_FAILURE_DIAGNOSTIC",
+    "failure_diagnostic": "REQUIRED_FOR_FAIL_OR_FATAL",
+    "human_runtime": "NOT_EXECUTED",
+    "known_pre_artifact_failure_classification": "RI5_TERMINAL_EVIDENCE",
+    "operational_diagnostics_export": "REQUIRED_WITH_EXACT_OBSERVED_VALUES",
+    "production_binding": "UNCHANGED",
+    "run_diagnostic_summary": "REQUIRED_FOR_EVERY_COMPLETED_RUN",
+    "status": "CANONICAL_MACHINE_CLOSED",
+    "terminal_hold_semantics": "UNCHANGED"
+  },
   "source_contracts": [
     "Configuration Management",
     "Definition of Done",
@@ -125,7 +137,7 @@
     "Status Artifact Contract",
     "Runtime Execution Path Provenance Gate"
   ],
-  "source_internal_commit_sha": "573aff809f8845106ca82846a5bcaeb9a190c5d0",
+  "source_internal_commit_sha": "07d844d5dff20885298ec29ee297f867017a22d8",
   "supersedes": null,
   "v2_compare_semantic_preservation": {
     "comparison_axis": "USE_CASE",

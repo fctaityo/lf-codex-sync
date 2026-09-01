@@ -6,7 +6,7 @@
   "additionalProperties": false,
   "required": [
     "projection_schema_version", "contract_id", "contract_name", "source_internal_commit_sha",
-    "applies_to", "source_contracts", "release_binding", "evidence_attempt_invariant", "v2_compare_semantic_preservation", "mandatory_rules", "supersedes", "projection_state", "authority"
+    "applies_to", "source_contracts", "release_binding", "evidence_attempt_invariant", "v2_compare_semantic_preservation", "session_log_root_cause_and_campaign_heartbeat", "mandatory_rules", "supersedes", "projection_state", "authority"
   ],
   "properties": {
     "projection_schema_version": {"type": "string", "const": "1.0"},
@@ -109,6 +109,23 @@
         "entity_type": {"type": "string", "const": "MODEL"},
         "minimum_comparison_members": {"type": "integer", "minimum": 2},
         "generic_deployment_category_comparison": {"type": "string", "const": "INSUFFICIENT"},
+        "human_runtime": {"type": "string", "const": "NOT_EXECUTED"},
+        "production_binding": {"type": "string", "const": "UNCHANGED"}
+      }
+    },
+    "session_log_root_cause_and_campaign_heartbeat": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["status", "run_diagnostic_summary", "failure_diagnostic", "known_pre_artifact_failure_classification", "operational_diagnostics_export", "failure_artifact_ui_fallback", "campaign_heartbeat", "terminal_hold_semantics", "human_runtime", "production_binding"],
+      "properties": {
+        "status": {"type": "string", "const": "CANONICAL_MACHINE_CLOSED"},
+        "run_diagnostic_summary": {"type": "string", "const": "REQUIRED_FOR_EVERY_COMPLETED_RUN"},
+        "failure_diagnostic": {"type": "string", "const": "REQUIRED_FOR_FAIL_OR_FATAL"},
+        "known_pre_artifact_failure_classification": {"type": "string", "const": "RI5_TERMINAL_EVIDENCE"},
+        "operational_diagnostics_export": {"type": "string", "const": "REQUIRED_WITH_EXACT_OBSERVED_VALUES"},
+        "failure_artifact_ui_fallback": {"type": "string", "const": "RI5_FAILURE_DIAGNOSTIC"},
+        "campaign_heartbeat": {"type": "string", "const": "INDEPENDENT_PUMP_WHILE_WORKER_ALIVE"},
+        "terminal_hold_semantics": {"type": "string", "const": "UNCHANGED"},
         "human_runtime": {"type": "string", "const": "NOT_EXECUTED"},
         "production_binding": {"type": "string", "const": "UNCHANGED"}
       }
