@@ -30,6 +30,15 @@
     "v2_entry_canonical_output": "verification/V2-ENTRY-E2E-RESULT.json",
     "v2_entry_cli_binding": "FIXED_OUTPUT_NO_CALLER_OUT_ARGUMENT"
   },
+  "llm_evidence_environment_fail_safe": {
+    "child_process_launchability": "REGRESSION_PROTECTED",
+    "console_start_visibility": "IMMEDIATE",
+    "environment_hard_deadline": "REQUIRED_BEFORE_AND_AFTER_CHILD",
+    "human_runtime": "NOT_EXECUTED",
+    "production_binding": "UNCHANGED",
+    "status": "CANONICAL_MACHINE_CLOSED",
+    "timeout_behavior": "DIAGNOSTIC_EVIDENCE_AND_CONTINUE"
+  },
   "mandatory_rules": [
     {
       "requirement": "Recover Actual Internal Current and all mandatory projections before implementation; missing or inconsistent binding blocks work.",
@@ -90,7 +99,7 @@
       "knowledge_basis": "contracts/ANTI-REGRESSION-FIXTURES-v0.63.json",
       "path": "contracts/ANTI-REGRESSION-FIXTURES-v1.0.json",
       "policy": "MONOTONIC_PROTECTION_NO_WEAKENING",
-      "sha256": "5d460eecf77af97251c87dbef3a1234892156a2df681c6f98504bc41470560f9"
+      "sha256": "682a75675dbb8e6565225ffc090aa16877f26780b268d553b9de51332a8dce38"
     },
     "current_ri4_identity": {
       "acceptance": "CURRENT_CANDIDATE_MACHINE_VERIFIED_HUMAN_RUNTIME_PENDING",
@@ -137,7 +146,7 @@
     "Status Artifact Contract",
     "Runtime Execution Path Provenance Gate"
   ],
-  "source_internal_commit_sha": "6b1c5314466ed75b92997b25752b7d6f12e57395",
+  "source_internal_commit_sha": "3fddffd17e9670ac568304cea338a5ed49ccb2cf",
   "supersedes": null,
   "v2_compare_semantic_preservation": {
     "comparison_axis": "USE_CASE",

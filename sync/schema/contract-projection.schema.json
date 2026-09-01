@@ -6,7 +6,7 @@
   "additionalProperties": false,
   "required": [
     "projection_schema_version", "contract_id", "contract_name", "source_internal_commit_sha",
-    "applies_to", "source_contracts", "release_binding", "evidence_attempt_invariant", "v2_compare_semantic_preservation", "session_log_root_cause_and_campaign_heartbeat", "v2_entry_validation_session_carry_forward", "mandatory_rules", "supersedes", "projection_state", "authority"
+    "applies_to", "source_contracts", "release_binding", "evidence_attempt_invariant", "v2_compare_semantic_preservation", "session_log_root_cause_and_campaign_heartbeat", "v2_entry_validation_session_carry_forward", "llm_evidence_environment_fail_safe", "mandatory_rules", "supersedes", "projection_state", "authority"
   ],
   "properties": {
     "projection_schema_version": {"type": "string", "const": "1.0"},
@@ -140,6 +140,20 @@
         "runtime_campaign_prefix": {"type": "string", "const": "PROHIBITED"},
         "counts_as_runtime_run": {"type": "boolean", "const": false},
         "persistence": {"type": "string", "const": "VALIDATION_ONLY_EKB_RECEIPT_READ_BACK"},
+        "human_runtime": {"type": "string", "const": "NOT_EXECUTED"},
+        "production_binding": {"type": "string", "const": "UNCHANGED"}
+      }
+    },
+    "llm_evidence_environment_fail_safe": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["status", "environment_hard_deadline", "timeout_behavior", "console_start_visibility", "child_process_launchability", "human_runtime", "production_binding"],
+      "properties": {
+        "status": {"type": "string", "const": "CANONICAL_MACHINE_CLOSED"},
+        "environment_hard_deadline": {"type": "string", "const": "REQUIRED_BEFORE_AND_AFTER_CHILD"},
+        "timeout_behavior": {"type": "string", "const": "DIAGNOSTIC_EVIDENCE_AND_CONTINUE"},
+        "console_start_visibility": {"type": "string", "const": "IMMEDIATE"},
+        "child_process_launchability": {"type": "string", "const": "REGRESSION_PROTECTED"},
         "human_runtime": {"type": "string", "const": "NOT_EXECUTED"},
         "production_binding": {"type": "string", "const": "UNCHANGED"}
       }

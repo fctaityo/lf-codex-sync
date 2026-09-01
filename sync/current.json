@@ -2,10 +2,10 @@
   "active_work": {
     "blocker": "NONE",
     "completed_checkpoint": "Evidence Explorer and structured human-input candidate machine verification complete / latest runtime campaign evidence bound",
-    "initiative": "RI #5 V2 Entry E2E Validation Session Carry-Forward Closure",
+    "initiative": "RI #5 LLM Evidence Environment Fail-Safe Closure",
     "initiative_human_decision": "Human runtime verification required / Production Acceptance not granted",
     "initiative_next_action": "Human runtime verification and remaining semantic / editorial gate review",
-    "status": "V2 E2E VALIDATION SESSION MACHINE CLOSED / HUMAN RUNTIME PENDING（Project State Published、Active Baseline BL-20260801-001不変）"
+    "status": "ENVIRONMENT FAIL-SAFE MACHINE CLOSED / HUMAN RUNTIME PENDING（Project State Published、Active Baseline BL-20260801-001不変）"
   },
   "foundry_core": {
     "confirmed_core": [
@@ -32,7 +32,7 @@
     ],
     "current_development_phase": "CROSS-RI EVIDENCE → FOUNDRY CORE EXTRACTION"
   },
-  "generated_at": "2026-09-01T14:44:28Z",
+  "generated_at": "2026-09-01T23:00:16Z",
   "paid_pdf": {
     "canonical_authority": "INTERNAL ONLY / PUBLIC READ-ONLY PROJECTION",
     "full_page_raster_pptx": "PROHIBITED",
@@ -49,7 +49,7 @@
   },
   "project": {
     "active_baseline": "BL-20260801-001",
-    "current_phase": "RI #5 V2 Entry E2E Validation Session Carry-Forward Machine Closed / Human Runtime Pending",
+    "current_phase": "RI #5 LLM Evidence Environment Fail-Safe Machine Closed / Human Runtime Pending",
     "current_vector": "CROSS-RI EVIDENCE → FOUNDRY CORE EXTRACTION",
     "project_next_action": "Human runtime verification and remaining semantic / editorial gate review",
     "project_required_human_decision": "Human runtime verification required / Production Acceptance not granted",
@@ -117,12 +117,12 @@
       "integrity_path": "sync/contracts/ri5-development-gates.sha256",
       "mandatory": true,
       "projection_path": "sync/contracts/ri5-development-gates.json",
-      "projection_sha256": "1485b21dcc11e5c1c2bfd27098957f0bb7047ccda0312c5ce80d481cb484c2b4"
+      "projection_sha256": "c9d447fef7b1ead3113832ab5e480fc8b622a4ebd463119ae6b01ffa66d2103b"
     }
   ],
   "schema_version": "1.0",
-  "snapshot_id": "SYNC-PUBLIC-RI5-V2E2E-VALIDATION-CARRYFORWARD-CLOSURE",
-  "source_internal_commit_sha": "6b1c5314466ed75b92997b25752b7d6f12e57395",
-  "source_sync_id": "RI5-V2E2E-VALIDATION-CARRYFORWARD-CLOSURE",
-  "supersedes_snapshot_id": "SYNC-PUBLIC-RI5-SESSION-ROOT-CAUSE-CAMPAIGN-HEARTBEAT-CLOSURE"
+  "snapshot_id": "SYNC-PUBLIC-RI5-LLM-EVIDENCE-ENVIRONMENT-FAILSAFE-CLOSURE",
+  "source_internal_commit_sha": "3fddffd17e9670ac568304cea338a5ed49ccb2cf",
+  "source_sync_id": "RI5-LLM-EVIDENCE-ENVIRONMENT-FAILSAFE-CLOSURE",
+  "supersedes_snapshot_id": "SYNC-PUBLIC-RI5-V2E2E-VALIDATION-CARRYFORWARD-CLOSURE"
 }
