@@ -2,10 +2,10 @@
   "active_work": {
     "blocker": "NONE",
     "completed_checkpoint": "Evidence Explorer and structured human-input candidate machine verification complete / latest runtime campaign evidence bound",
-    "initiative": "RI #5 LLM Evidence Environment Fail-Safe Closure",
+    "initiative": "RI #5 LLM Evidence Probe CWD Isolation Closure",
     "initiative_human_decision": "Human runtime verification required / Production Acceptance not granted",
     "initiative_next_action": "Human runtime verification and remaining semantic / editorial gate review",
-    "status": "ENVIRONMENT FAIL-SAFE MACHINE CLOSED / HUMAN RUNTIME PENDING（Project State Published、Active Baseline BL-20260801-001不変）"
+    "status": "PROBE CWD ISOLATION MACHINE CLOSED / HUMAN RUNTIME PENDING（Project State Published、Active Baseline BL-20260801-001不変）"
   },
   "foundry_core": {
     "confirmed_core": [
@@ -32,7 +32,7 @@
     ],
     "current_development_phase": "CROSS-RI EVIDENCE → FOUNDRY CORE EXTRACTION"
   },
-  "generated_at": "2026-09-01T23:00:16Z",
+  "generated_at": "2026-09-01T23:46:54Z",
   "paid_pdf": {
     "canonical_authority": "INTERNAL ONLY / PUBLIC READ-ONLY PROJECTION",
     "full_page_raster_pptx": "PROHIBITED",
@@ -49,7 +49,7 @@
   },
   "project": {
     "active_baseline": "BL-20260801-001",
-    "current_phase": "RI #5 LLM Evidence Environment Fail-Safe Machine Closed / Human Runtime Pending",
+    "current_phase": "RI #5 LLM Evidence Probe CWD Isolation Machine Closed / Human Runtime Pending",
     "current_vector": "CROSS-RI EVIDENCE → FOUNDRY CORE EXTRACTION",
     "project_next_action": "Human runtime verification and remaining semantic / editorial gate review",
     "project_required_human_decision": "Human runtime verification required / Production Acceptance not granted",
@@ -117,12 +117,12 @@
       "integrity_path": "sync/contracts/ri5-development-gates.sha256",
       "mandatory": true,
       "projection_path": "sync/contracts/ri5-development-gates.json",
-      "projection_sha256": "c9d447fef7b1ead3113832ab5e480fc8b622a4ebd463119ae6b01ffa66d2103b"
+      "projection_sha256": "6821f8611f8b404dcba95f80bca739556f6240db3a2df1eeb192522e052b7583"
     }
   ],
   "schema_version": "1.0",
-  "snapshot_id": "SYNC-PUBLIC-RI5-LLM-EVIDENCE-ENVIRONMENT-FAILSAFE-CLOSURE",
-  "source_internal_commit_sha": "3fddffd17e9670ac568304cea338a5ed49ccb2cf",
-  "source_sync_id": "RI5-LLM-EVIDENCE-ENVIRONMENT-FAILSAFE-CLOSURE",
-  "supersedes_snapshot_id": "SYNC-PUBLIC-RI5-V2E2E-VALIDATION-CARRYFORWARD-CLOSURE"
+  "snapshot_id": "SYNC-PUBLIC-RI5-LLM-EVIDENCE-PROBE-CWD-ISOLATION-CLOSURE",
+  "source_internal_commit_sha": "77a4c27acf236ab931e0b634ae21b95db8502e2f",
+  "source_sync_id": "RI5-LLM-EVIDENCE-PROBE-CWD-ISOLATION-CLOSURE",
+  "supersedes_snapshot_id": "SYNC-PUBLIC-RI5-LLM-EVIDENCE-ENVIRONMENT-FAILSAFE-CLOSURE"
 }
