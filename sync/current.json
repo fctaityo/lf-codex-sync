@@ -32,7 +32,7 @@
     ],
     "current_development_phase": "RI #5 EVIDENCE FOUNDATION → RI #4 EVIDENCE-DRIVEN RUNTIME HARDENING"
   },
-  "generated_at": "2026-09-04T22:56:30+09:00",
+  "generated_at": "2026-09-05T03:48:46+09:00",
   "paid_pdf": {
     "canonical_authority": "INTERNAL ONLY / PUBLIC READ-ONLY PROJECTION",
     "full_page_raster_pptx": "PROHIBITED",
@@ -122,19 +122,17 @@
       "integrity_path": "sync/contracts/ri5-development-gates.sha256",
       "mandatory": true,
       "projection_path": "sync/contracts/ri5-development-gates.json",
-      "projection_sha256": "fce9bdcbb08d10fc667d51a92c0f292b567b9b67b755ace5314099bd2aaee962"
+      "projection_sha256": "a660dab4cbc80045a4d82c370f70b5e0b9db8a50ab3c55a646e2acab3e449d13"
     }
   ],
   "ri4_hardening": {
-    "article_quality_baseline": "SEEDING",
+    "article_quality_baseline": "NOT_ESTABLISHED",
     "campaign": "AQC-01",
-    "campaign_state": "SECOND CORRECTION REGRESSION-BOUND / ACTUAL RE-RUN REQUIRED",
+    "campaign_state": "FAIL / HARDENING CONTINUES / CHECKPOINT SYNCHRONIZED",
     "next_milestone": "ARTICLE QUALITY BASELINE",
     "open_failure_families": [
       "FF-UC-001",
       "FF-IE-001",
-      "FF-AG-001",
-      "FF-SQ-001",
       "FF-SC-001",
       "FF-GA-001",
       "FF-EV-001"
@@ -144,8 +142,8 @@
     "ri5_protection": "PROTECTED_BASE"
   },
   "schema_version": "1.0",
-  "snapshot_id": "SYNC-PUBLIC-AQC01-01-EDITORIAL-HARDENING-CLOSURE",
-  "source_internal_commit_sha": "eb7d27e6b98a29d99bcde4f125888db026460785",
-  "source_sync_id": "CFG-20260904-005",
-  "supersedes_snapshot_id": "SYNC-PUBLIC-AQC01-01-HARDENING-TERMINAL-CLOSURE"
+  "snapshot_id": "SYNC-PUBLIC-AQC01-01-CHECKPOINT-20260905",
+  "source_internal_commit_sha": "c6961555764900e7272351c575d2f0c15e9df8bb",
+  "source_sync_id": "CFG-20260905-001",
+  "supersedes_snapshot_id": "SYNC-PUBLIC-AQC01-01-EDITORIAL-HARDENING-CLOSURE"
 }
