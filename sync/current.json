@@ -32,7 +32,7 @@
     ],
     "current_development_phase": "RI #5 EVIDENCE FOUNDATION → RI #4 EVIDENCE-DRIVEN RUNTIME HARDENING"
   },
-  "generated_at": "2026-09-04T22:20:00+09:00",
+  "generated_at": "2026-09-04T22:18:09+09:00",
   "paid_pdf": {
     "canonical_authority": "INTERNAL ONLY / PUBLIC READ-ONLY PROJECTION",
     "full_page_raster_pptx": "PROHIBITED",
@@ -122,7 +122,7 @@
       "integrity_path": "sync/contracts/ri5-development-gates.sha256",
       "mandatory": true,
       "projection_path": "sync/contracts/ri5-development-gates.json",
-      "projection_sha256": "87dc5a9bd1286b4641b8416eb10cac432d32c3e39dd602ae217c3482e0b77071"
+      "projection_sha256": "019169a20671621deabca7fad49f097d37b70e0abdd7513920c1e49a4bb145c6"
     }
   ],
   "ri4_hardening": {
@@ -141,8 +141,8 @@
     "ri5_protection": "PROTECTED_BASE"
   },
   "schema_version": "1.0",
-  "snapshot_id": "SYNC-PUBLIC-AQC01-01-HARDENING-CLOSURE",
-  "source_internal_commit_sha": "7d59c5d6188f460e6e1a7c182757dc30f39cc69c",
+  "snapshot_id": "SYNC-PUBLIC-AQC01-01-HARDENING-TERMINAL-CLOSURE",
+  "source_internal_commit_sha": "3edc6318c1ebb82e103f705759acf496f680d568",
   "source_sync_id": "CFG-20260904-003",
-  "supersedes_snapshot_id": "SYNC-PUBLIC-RI4-AQC01-READY-CLOSURE"
+  "supersedes_snapshot_id": "SYNC-PUBLIC-AQC01-01-HARDENING-CLOSURE"
 }
