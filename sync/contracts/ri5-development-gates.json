@@ -1,4 +1,18 @@
 {
+  "actual_human_runtime_case_1": {
+    "build_id": "RI5-EP-V2SHADOW-20260831-011",
+    "campaign_id": "CMP-20260904-171441-09681",
+    "editorial_finding": "UNSUPPORTED_CLAIM_INFERENCE_EVALUATION_ARTIFACT_GATE_BOUNDARY_OPEN",
+    "entry_plane": "SELECT_EXACTLY_ONE_GAME_SOFTWARE_TITLE_PASS",
+    "evidence_traceability": "INPUT_TO_FINAL_ARTICLE_PASS",
+    "final_evidence_zip_sha256": "242a5a24f281b1ad648c8b0c8bffb5da29ae77bad772a409cd47e15e0947ea92",
+    "lf_ekb_source_sha256": "b0f35ea77a74c21f67ea19db0a4a393f5e9d9ae4ec1e481b166e8150b56410c9",
+    "lf_ekb_status": "REGISTERED_RECEIPT_READ_BACK_VERIFIED",
+    "production_acceptance": "NOT_GRANTED",
+    "production_binding": "UNCHANGED",
+    "runtime_result": "1_PASS_0_FAIL_0_FATAL",
+    "status": "HUMAN_RUNTIME_PASS_WITH_EDITORIAL_FINDING"
+  },
   "applies_to": [
     "RI5_IMPLEMENTATION",
     "RI5_VERIFICATION",
@@ -13,7 +27,7 @@
     "contract_id": "LF-EVIDENCE-ATTEMPT-INVARIANT",
     "cp932_console_regression": "MACHINE_CLOSED",
     "historical_104321": "HISTORICAL_IMMUTABLE_EVIDENCE_LOST_NOT_CANONICALLY_INGESTIBLE",
-    "human_runtime": "PENDING_NOT_EXECUTED",
+    "human_runtime": "CASE_1_EXECUTED_TRACEABILITY_PASS_REMAINING_ACCEPTANCE_NOT_GRANTED",
     "persistence_failure_exit_code": "74",
     "production_binding": "UNCHANGED",
     "runtime_run_separation": "VALIDATION_SESSION_DOES_NOT_COUNT_AS_RUNTIME_RUN",
@@ -133,6 +147,17 @@
       "FINAL"
     ]
   },
+  "restored_terminal_hold_start_closure": {
+    "build_id": "RI5-EP-V2SHADOW-20260831-011",
+    "finding": "RESTORED_TERMINAL_HOLD_FALSE_CAMPAIGN_ALREADY_ACTIVE",
+    "fixed_package_sha256": "b82a11b6335946e48feb9cc5edcd7ed1fbf8286837593b1716bae8640082748b",
+    "package_self_check": "PASS",
+    "production_binding": "UNCHANGED",
+    "relevant_regression": "23_PASS_REVERIFIED",
+    "restored_terminal_hold": "NON_ACTIVE_FOR_FRESH_CAMPAIGN_START",
+    "resumable_or_in_process_hold": "STILL_BLOCKING",
+    "status": "CANONICAL_MACHINE_CLOSED"
+  },
   "session_log_root_cause_and_campaign_heartbeat": {
     "campaign_heartbeat": "INDEPENDENT_PUMP_WHILE_WORKER_ALIVE",
     "failure_artifact_ui_fallback": "RI5_FAILURE_DIAGNOSTIC",
@@ -154,7 +179,7 @@
     "Status Artifact Contract",
     "Runtime Execution Path Provenance Gate"
   ],
-  "source_internal_commit_sha": "77a4c27acf236ab931e0b634ae21b95db8502e2f",
+  "source_internal_commit_sha": "f874ce6201efebc50c1871cdda903f90ef3f27e3",
   "supersedes": null,
   "v2_compare_semantic_preservation": {
     "comparison_axis": "USE_CASE",

@@ -6,7 +6,7 @@
   "additionalProperties": false,
   "required": [
     "projection_schema_version", "contract_id", "contract_name", "source_internal_commit_sha",
-    "applies_to", "source_contracts", "release_binding", "evidence_attempt_invariant", "v2_compare_semantic_preservation", "session_log_root_cause_and_campaign_heartbeat", "v2_entry_validation_session_carry_forward", "llm_evidence_environment_fail_safe", "llm_evidence_probe_cwd_isolation", "mandatory_rules", "supersedes", "projection_state", "authority"
+    "applies_to", "source_contracts", "release_binding", "evidence_attempt_invariant", "v2_compare_semantic_preservation", "session_log_root_cause_and_campaign_heartbeat", "v2_entry_validation_session_carry_forward", "llm_evidence_environment_fail_safe", "llm_evidence_probe_cwd_isolation", "restored_terminal_hold_start_closure", "actual_human_runtime_case_1", "mandatory_rules", "supersedes", "projection_state", "authority"
   ],
   "properties": {
     "projection_schema_version": {"type": "string", "const": "1.0"},
@@ -93,7 +93,7 @@
         "cp932_console_regression": {"type": "string", "const": "MACHINE_CLOSED"},
         "v2_entry_cli_binding": {"type": "string", "const": "FIXED_OUTPUT_NO_CALLER_OUT_ARGUMENT"},
         "v2_entry_canonical_output": {"type": "string", "const": "verification/V2-ENTRY-E2E-RESULT.json"},
-        "human_runtime": {"type": "string", "const": "PENDING_NOT_EXECUTED"},
+        "human_runtime": {"type": "string", "const": "CASE_1_EXECUTED_TRACEABILITY_PASS_REMAINING_ACCEPTANCE_NOT_GRANTED"},
         "production_binding": {"type": "string", "const": "UNCHANGED"}
       }
     },
@@ -168,6 +168,41 @@
         "wrapped_child_cwd": {"type": "string", "const": "CANONICAL_ROOT_UNCHANGED"},
         "package_root_replaceability": {"type": "string", "const": "REGRESSION_PROTECTED"},
         "human_runtime": {"type": "string", "const": "NOT_EXECUTED"},
+        "production_binding": {"type": "string", "const": "UNCHANGED"}
+      }
+    },
+    "restored_terminal_hold_start_closure": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["status", "finding", "build_id", "fixed_package_sha256", "restored_terminal_hold", "resumable_or_in_process_hold", "package_self_check", "relevant_regression", "production_binding"],
+      "properties": {
+        "status": {"type": "string", "const": "CANONICAL_MACHINE_CLOSED"},
+        "finding": {"type": "string", "const": "RESTORED_TERMINAL_HOLD_FALSE_CAMPAIGN_ALREADY_ACTIVE"},
+        "build_id": {"type": "string", "const": "RI5-EP-V2SHADOW-20260831-011"},
+        "fixed_package_sha256": {"type": "string", "pattern": "^[0-9a-f]{64}$", "x-lf-content-class": "machine-identity"},
+        "restored_terminal_hold": {"type": "string", "const": "NON_ACTIVE_FOR_FRESH_CAMPAIGN_START"},
+        "resumable_or_in_process_hold": {"type": "string", "const": "STILL_BLOCKING"},
+        "package_self_check": {"type": "string", "const": "PASS"},
+        "relevant_regression": {"type": "string", "const": "23_PASS_REVERIFIED"},
+        "production_binding": {"type": "string", "const": "UNCHANGED"}
+      }
+    },
+    "actual_human_runtime_case_1": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["status", "campaign_id", "build_id", "runtime_result", "entry_plane", "evidence_traceability", "final_evidence_zip_sha256", "lf_ekb_status", "lf_ekb_source_sha256", "editorial_finding", "production_acceptance", "production_binding"],
+      "properties": {
+        "status": {"type": "string", "const": "HUMAN_RUNTIME_PASS_WITH_EDITORIAL_FINDING"},
+        "campaign_id": {"type": "string", "const": "CMP-20260904-171441-09681"},
+        "build_id": {"type": "string", "const": "RI5-EP-V2SHADOW-20260831-011"},
+        "runtime_result": {"type": "string", "const": "1_PASS_0_FAIL_0_FATAL"},
+        "entry_plane": {"type": "string", "const": "SELECT_EXACTLY_ONE_GAME_SOFTWARE_TITLE_PASS"},
+        "evidence_traceability": {"type": "string", "const": "INPUT_TO_FINAL_ARTICLE_PASS"},
+        "final_evidence_zip_sha256": {"type": "string", "pattern": "^[0-9a-f]{64}$", "x-lf-content-class": "machine-identity"},
+        "lf_ekb_status": {"type": "string", "const": "REGISTERED_RECEIPT_READ_BACK_VERIFIED"},
+        "lf_ekb_source_sha256": {"type": "string", "pattern": "^[0-9a-f]{64}$", "x-lf-content-class": "machine-identity"},
+        "editorial_finding": {"type": "string", "const": "UNSUPPORTED_CLAIM_INFERENCE_EVALUATION_ARTIFACT_GATE_BOUNDARY_OPEN"},
+        "production_acceptance": {"type": "string", "const": "NOT_GRANTED"},
         "production_binding": {"type": "string", "const": "UNCHANGED"}
       }
     },

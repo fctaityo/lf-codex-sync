@@ -1,11 +1,11 @@
 {
   "active_work": {
     "blocker": "NONE",
-    "completed_checkpoint": "Evidence Explorer and structured human-input candidate machine verification complete / latest runtime campaign evidence bound",
-    "initiative": "RI #5 LLM Evidence Probe CWD Isolation Closure",
-    "initiative_human_decision": "Human runtime verification required / Production Acceptance not granted",
-    "initiative_next_action": "Human runtime verification and remaining semantic / editorial gate review",
-    "status": "PROBE CWD ISOLATION MACHINE CLOSED / HUMAN RUNTIME PENDING（Project State Published、Active Baseline BL-20260801-001不変）"
+    "completed_checkpoint": "RI#5 Evidence Foundation milestone reached through Actual Human Runtime traceability / terminal HOLD lifecycle machine closed",
+    "initiative": "RI #5 Evidence Foundation Milestone / RI #4 Evidence-Driven Runtime Hardening",
+    "initiative_human_decision": "Case 1 traceability confirmed / Production Acceptance not granted / Production Binding unchanged",
+    "initiative_next_action": "Run and harden RI#4 on the RI#5 Evidence Foundation using evidence-driven article review",
+    "status": "RI5 EVIDENCE FOUNDATION MILESTONE REACHED / RI4 QUALITY FINDING OPEN（Project State Published、Active Baseline BL-20260801-001不変、Production Acceptance未付与）"
   },
   "foundry_core": {
     "confirmed_core": [
@@ -30,9 +30,9 @@
         "status": "CORE CONFIRMED"
       }
     ],
-    "current_development_phase": "CROSS-RI EVIDENCE → FOUNDRY CORE EXTRACTION"
+    "current_development_phase": "RI #5 EVIDENCE FOUNDATION → RI #4 EVIDENCE-DRIVEN RUNTIME HARDENING"
   },
-  "generated_at": "2026-09-01T23:46:54Z",
+  "generated_at": "2026-09-04T08:48:46Z",
   "paid_pdf": {
     "canonical_authority": "INTERNAL ONLY / PUBLIC READ-ONLY PROJECTION",
     "full_page_raster_pptx": "PROHIBITED",
@@ -49,10 +49,10 @@
   },
   "project": {
     "active_baseline": "BL-20260801-001",
-    "current_phase": "RI #5 LLM Evidence Probe CWD Isolation Machine Closed / Human Runtime Pending",
-    "current_vector": "CROSS-RI EVIDENCE → FOUNDRY CORE EXTRACTION",
-    "project_next_action": "Human runtime verification and remaining semantic / editorial gate review",
-    "project_required_human_decision": "Human runtime verification required / Production Acceptance not granted",
+    "current_phase": "RI #5 Evidence Foundation Milestone Reached / RI #4 Evidence-Driven Runtime Hardening",
+    "current_vector": "RI #5 EVIDENCE FOUNDATION → RI #4 EVIDENCE-DRIVEN RUNTIME HARDENING",
+    "project_next_action": "Run and harden RI#4 on the RI#5 Evidence Foundation using evidence-driven article review",
+    "project_required_human_decision": "Case 1 traceability confirmed / Production Acceptance not granted / Production Binding unchanged",
     "project_state": "Published"
   },
   "project_id": "LOCAL-AI-FOUNDRY",
@@ -90,18 +90,18 @@
     {
       "acceptance": "PRODUCTION ACCEPTANCE NOT REACHED",
       "current_implementation": "Current Candidate v0.71",
-      "current_role": "ACTIVE VALIDATION / BOUNDED RESEARCH RUNTIME",
+      "current_role": "ACTIVE VALIDATION / EVIDENCE-DRIVEN RUNTIME HARDENING",
       "domain": "Research-Grounded Long-form Content Production",
       "id": "RI#4",
-      "implementation_state": "Structured selection and quality-gate candidate / Semantic and editorial findings open / Production Acceptance Not Reached"
+      "implementation_state": "Evidence-driven runtime hardening / Unsupported Claim and Artifact Gate boundary finding open / Production Acceptance Not Reached"
     },
     {
       "acceptance": "CONTROL PLANE ACCEPTANCE PENDING",
       "current_implementation": "Current Candidate v1.0.2 / LF-EKB v0.3",
-      "current_role": "CONTROL PLANE / RELEASE CONTRACT CURRENT",
-      "domain": "Foundry Control Plane",
+      "current_role": "EVIDENCE FOUNDATION MILESTONE / PROTECTED BASE",
+      "domain": "Foundry Evidence / Control Plane",
       "id": "RI#5",
-      "implementation_state": "Evidence Explorer and control-plane candidate / Human Runtime Verification Pending / Production Acceptance Not Reached"
+      "implementation_state": "Evidence Foundation milestone reached in Actual Human Runtime / protected base / Production Acceptance Not Reached"
     }
   ],
   "required_contracts": [
@@ -117,12 +117,12 @@
       "integrity_path": "sync/contracts/ri5-development-gates.sha256",
       "mandatory": true,
       "projection_path": "sync/contracts/ri5-development-gates.json",
-      "projection_sha256": "6821f8611f8b404dcba95f80bca739556f6240db3a2df1eeb192522e052b7583"
+      "projection_sha256": "f437afb62c6aa5b3e85128a8c88a0c75c75a4a16e731c8a4feb0c8c83a246df8"
     }
   ],
   "schema_version": "1.0",
-  "snapshot_id": "SYNC-PUBLIC-RI5-LLM-EVIDENCE-PROBE-CWD-ISOLATION-CLOSURE",
-  "source_internal_commit_sha": "77a4c27acf236ab931e0b634ae21b95db8502e2f",
-  "source_sync_id": "RI5-LLM-EVIDENCE-PROBE-CWD-ISOLATION-CLOSURE",
-  "supersedes_snapshot_id": "SYNC-PUBLIC-RI5-LLM-EVIDENCE-ENVIRONMENT-FAILSAFE-CLOSURE"
+  "snapshot_id": "SYNC-PUBLIC-RI5-EVIDENCE-FOUNDATION-MILESTONE",
+  "source_internal_commit_sha": "f874ce6201efebc50c1871cdda903f90ef3f27e3",
+  "source_sync_id": "RI5-EVIDENCE-FOUNDATION-MILESTONE",
+  "supersedes_snapshot_id": "SYNC-PUBLIC-RI5-LLM-EVIDENCE-PROBE-CWD-ISOLATION-CLOSURE"
 }
