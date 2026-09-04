@@ -32,7 +32,7 @@
     ],
     "current_development_phase": "RI #5 EVIDENCE FOUNDATION → RI #4 EVIDENCE-DRIVEN RUNTIME HARDENING"
   },
-  "generated_at": "2026-09-04T08:48:46Z",
+  "generated_at": "2026-09-04T17:57:15+09:00",
   "paid_pdf": {
     "canonical_authority": "INTERNAL ONLY / PUBLIC READ-ONLY PROJECTION",
     "full_page_raster_pptx": "PROHIBITED",
@@ -117,12 +117,12 @@
       "integrity_path": "sync/contracts/ri5-development-gates.sha256",
       "mandatory": true,
       "projection_path": "sync/contracts/ri5-development-gates.json",
-      "projection_sha256": "f437afb62c6aa5b3e85128a8c88a0c75c75a4a16e731c8a4feb0c8c83a246df8"
+      "projection_sha256": "97049bd702705cb2d18f7383f7ca9149722839f130859b081d3bd90bc734589f"
     }
   ],
   "schema_version": "1.0",
-  "snapshot_id": "SYNC-PUBLIC-RI5-EVIDENCE-FOUNDATION-MILESTONE",
-  "source_internal_commit_sha": "f874ce6201efebc50c1871cdda903f90ef3f27e3",
-  "source_sync_id": "RI5-EVIDENCE-FOUNDATION-MILESTONE",
-  "supersedes_snapshot_id": "SYNC-PUBLIC-RI5-LLM-EVIDENCE-PROBE-CWD-ISOLATION-CLOSURE"
+  "snapshot_id": "SYNC-PUBLIC-RI5-EVIDENCE-FOUNDATION-MILESTONE-CLOSURE",
+  "source_internal_commit_sha": "79b6bdcc5bddefb96764678d944bf58f2c762844",
+  "source_sync_id": "RI5-EVIDENCE-FOUNDATION-MILESTONE-CLOSURE",
+  "supersedes_snapshot_id": "SYNC-PUBLIC-RI5-EVIDENCE-FOUNDATION-MILESTONE"
 }
