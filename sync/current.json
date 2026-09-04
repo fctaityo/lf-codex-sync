@@ -4,7 +4,7 @@
     "completed_checkpoint": "RI#5 Evidence Foundation milestone reached through Actual Human Runtime traceability / terminal HOLD lifecycle machine closed",
     "initiative": "RI #5 Evidence Foundation Milestone / RI #4 Evidence-Driven Runtime Hardening",
     "initiative_human_decision": "Case 1 traceability confirmed / Production Acceptance not granted / Production Binding unchanged",
-    "initiative_next_action": "Begin AQC-01 Human Runtime and establish the RI#4 Article Quality Baseline on the protected RI#5 Evidence Foundation",
+    "initiative_next_action": "Re-run AQC01-01 on the corrected RI#4 candidate before advancing to AQC01-02",
     "status": "RI5 EVIDENCE FOUNDATION MILESTONE REACHED / RI4 QUALITY FINDING OPEN（Project State Published、Active Baseline BL-20260801-001不変、Production Acceptance未付与）"
   },
   "foundry_core": {
@@ -32,7 +32,7 @@
     ],
     "current_development_phase": "RI #5 EVIDENCE FOUNDATION → RI #4 EVIDENCE-DRIVEN RUNTIME HARDENING"
   },
-  "generated_at": "2026-09-04T20:20:00+09:00",
+  "generated_at": "2026-09-04T22:20:00+09:00",
   "paid_pdf": {
     "canonical_authority": "INTERNAL ONLY / PUBLIC READ-ONLY PROJECTION",
     "full_page_raster_pptx": "PROHIBITED",
@@ -51,7 +51,7 @@
     "active_baseline": "BL-20260801-001",
     "current_phase": "RI #5 Evidence Foundation Milestone Reached / RI #4 Evidence-Driven Runtime Hardening",
     "current_vector": "RI #5 EVIDENCE FOUNDATION → RI #4 EVIDENCE-DRIVEN RUNTIME HARDENING",
-    "project_next_action": "Begin AQC-01 Human Runtime and establish the RI#4 Article Quality Baseline on the protected RI#5 Evidence Foundation",
+    "project_next_action": "Re-run AQC01-01 on the corrected RI#4 candidate before advancing to AQC01-02",
     "project_required_human_decision": "Case 1 traceability confirmed / Production Acceptance not granted / Production Binding unchanged",
     "project_state": "Published"
   },
@@ -96,7 +96,7 @@
       "current_role": "ACTIVE VALIDATION / EVIDENCE-DRIVEN RUNTIME HARDENING",
       "domain": "Research-Grounded Long-form Content Production",
       "id": "RI#4",
-      "implementation_state": "AQC-01 ready / Article Quality Baseline not established / initial Failure Families open / Production Acceptance Not Reached",
+      "implementation_state": "AQC01-01 correction regression-bound / Actual re-run required / Article Quality Baseline seeding / Production Acceptance Not Reached",
       "public_name": "Research-Grounded Long-form Production"
     },
     {
@@ -122,26 +122,27 @@
       "integrity_path": "sync/contracts/ri5-development-gates.sha256",
       "mandatory": true,
       "projection_path": "sync/contracts/ri5-development-gates.json",
-      "projection_sha256": "0b7af02b5177ef5f20cef5112aebfe7198b091a89201d4aef53874ba7ad9108a"
+      "projection_sha256": "87dc5a9bd1286b4641b8416eb10cac432d32c3e39dd602ae217c3482e0b77071"
     }
   ],
   "ri4_hardening": {
-    "article_quality_baseline": "NOT_ESTABLISHED",
+    "article_quality_baseline": "SEEDING",
     "campaign": "AQC-01",
-    "campaign_state": "READY / HUMAN RUNTIME NOT EXECUTED",
+    "campaign_state": "CORRECTION REGRESSION-BOUND / ACTUAL RE-RUN REQUIRED",
     "next_milestone": "ARTICLE QUALITY BASELINE",
     "open_failure_families": [
       "FF-UC-001",
       "FF-IE-001",
-      "FF-AG-001"
+      "FF-AG-001",
+      "FF-SQ-001"
     ],
     "production_acceptance": "NOT REACHED",
     "production_binding": "UNCHANGED",
     "ri5_protection": "PROTECTED_BASE"
   },
   "schema_version": "1.0",
-  "snapshot_id": "SYNC-PUBLIC-RI4-AQC01-READY-CLOSURE",
-  "source_internal_commit_sha": "2cdc74c796d13933476b0aa8bf961980414bb929",
-  "source_sync_id": "CFG-20260904-002",
-  "supersedes_snapshot_id": "SYNC-PUBLIC-RI4-AQC01-READY"
+  "snapshot_id": "SYNC-PUBLIC-AQC01-01-HARDENING-CLOSURE",
+  "source_internal_commit_sha": "7d59c5d6188f460e6e1a7c182757dc30f39cc69c",
+  "source_sync_id": "CFG-20260904-003",
+  "supersedes_snapshot_id": "SYNC-PUBLIC-RI4-AQC01-READY-CLOSURE"
 }

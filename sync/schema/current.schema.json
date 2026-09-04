@@ -108,10 +108,10 @@
       "required": ["campaign", "campaign_state", "article_quality_baseline", "next_milestone", "open_failure_families", "ri5_protection", "production_acceptance", "production_binding"],
       "properties": {
         "campaign": {"const": "AQC-01"},
-        "campaign_state": {"const": "READY / HUMAN RUNTIME NOT EXECUTED"},
-        "article_quality_baseline": {"const": "NOT_ESTABLISHED"},
+        "campaign_state": {"type": "string", "minLength": 1, "maxLength": 256},
+        "article_quality_baseline": {"enum": ["NOT_ESTABLISHED", "SEEDING", "MEASURED", "HARDENING", "STABLE_CANDIDATE"]},
         "next_milestone": {"const": "ARTICLE QUALITY BASELINE"},
-        "open_failure_families": {"type": "array", "minItems": 3, "maxItems": 3, "items": {"type": "string", "pattern": "^FF-[A-Z]{2}-[0-9]{3}$"}},
+        "open_failure_families": {"type": "array", "minItems": 3, "maxItems": 32, "items": {"type": "string", "pattern": "^FF-[A-Z]{2}-[0-9]{3}$"}},
         "ri5_protection": {"const": "PROTECTED_BASE"},
         "production_acceptance": {"const": "NOT REACHED"},
         "production_binding": {"const": "UNCHANGED"}
