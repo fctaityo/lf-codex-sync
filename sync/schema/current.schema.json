@@ -68,10 +68,11 @@
       "items": {
         "type": "object",
         "additionalProperties": false,
-        "required": ["id", "domain", "current_role", "implementation_state", "acceptance", "current_implementation"],
+        "required": ["id", "domain", "public_name", "current_role", "implementation_state", "acceptance", "current_implementation"],
         "properties": {
           "id": {"type": "string", "pattern": "^RI#[0-9]+$"},
           "domain": {"type": "string", "minLength": 1, "maxLength": 256},
+          "public_name": {"type": "string", "minLength": 1, "maxLength": 256},
           "current_role": {"type": "string", "minLength": 1, "maxLength": 256},
           "implementation_state": {"type": "string", "minLength": 1, "maxLength": 256},
           "acceptance": {"type": ["string", "null"], "maxLength": 256},

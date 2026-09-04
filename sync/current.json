@@ -32,7 +32,7 @@
     ],
     "current_development_phase": "RI #5 EVIDENCE FOUNDATION → RI #4 EVIDENCE-DRIVEN RUNTIME HARDENING"
   },
-  "generated_at": "2026-09-04T17:57:15+09:00",
+  "generated_at": "2026-09-04T19:00:28+09:00",
   "paid_pdf": {
     "canonical_authority": "INTERNAL ONLY / PUBLIC READ-ONLY PROJECTION",
     "full_page_raster_pptx": "PROHIBITED",
@@ -69,7 +69,8 @@
       "current_role": "FROZEN / HISTORICAL BENCHMARK",
       "domain": "Article Production",
       "id": "RI#1",
-      "implementation_state": "Historical Evidence Preserved"
+      "implementation_state": "Historical Evidence Preserved",
+      "public_name": "Article Production"
     },
     {
       "acceptance": "LIVE ACCEPTANCE PENDING",
@@ -77,7 +78,8 @@
       "current_role": "CORE CONTRIBUTOR",
       "domain": "Documentation Production",
       "id": "RI#2",
-      "implementation_state": "IMPLEMENTATION VERIFIED"
+      "implementation_state": "IMPLEMENTATION VERIFIED",
+      "public_name": "Documentation Production"
     },
     {
       "acceptance": "PRODUCTION ACCEPTANCE NOT REACHED",
@@ -85,7 +87,8 @@
       "current_role": "RUNTIME VALIDATED / CORE CONTRIBUTOR",
       "domain": "Visual Asset Production",
       "id": "RI#3",
-      "implementation_state": "Human-facing Control Surface / Current Implementation"
+      "implementation_state": "Human-facing Control Surface / Current Implementation",
+      "public_name": "Visual Asset Production"
     },
     {
       "acceptance": "PRODUCTION ACCEPTANCE NOT REACHED",
@@ -93,7 +96,8 @@
       "current_role": "ACTIVE VALIDATION / EVIDENCE-DRIVEN RUNTIME HARDENING",
       "domain": "Research-Grounded Long-form Content Production",
       "id": "RI#4",
-      "implementation_state": "Evidence-driven runtime hardening / Unsupported Claim and Artifact Gate boundary finding open / Production Acceptance Not Reached"
+      "implementation_state": "Evidence-driven runtime hardening / Unsupported Claim and Artifact Gate boundary finding open / Production Acceptance Not Reached",
+      "public_name": "Research-Grounded Long-form Production"
     },
     {
       "acceptance": "CONTROL PLANE ACCEPTANCE PENDING",
@@ -101,7 +105,8 @@
       "current_role": "EVIDENCE FOUNDATION MILESTONE / PROTECTED BASE",
       "domain": "Foundry Evidence / Control Plane",
       "id": "RI#5",
-      "implementation_state": "Evidence Foundation milestone reached in Actual Human Runtime / protected base / Production Acceptance Not Reached"
+      "implementation_state": "Evidence Foundation milestone reached in Actual Human Runtime / protected base / Production Acceptance Not Reached",
+      "public_name": "Evidence Foundation"
     }
   ],
   "required_contracts": [
@@ -117,12 +122,12 @@
       "integrity_path": "sync/contracts/ri5-development-gates.sha256",
       "mandatory": true,
       "projection_path": "sync/contracts/ri5-development-gates.json",
-      "projection_sha256": "97049bd702705cb2d18f7383f7ca9149722839f130859b081d3bd90bc734589f"
+      "projection_sha256": "fb1226849c8a02172f9cb363e35b1a9b38c116d16483f1c53fa2820eacdeaa73"
     }
   ],
   "schema_version": "1.0",
-  "snapshot_id": "SYNC-PUBLIC-RI5-EVIDENCE-FOUNDATION-MILESTONE-CLOSURE",
-  "source_internal_commit_sha": "79b6bdcc5bddefb96764678d944bf58f2c762844",
-  "source_sync_id": "RI5-EVIDENCE-FOUNDATION-MILESTONE-CLOSURE",
-  "supersedes_snapshot_id": "SYNC-PUBLIC-RI5-EVIDENCE-FOUNDATION-MILESTONE"
+  "snapshot_id": "SYNC-PUBLIC-RI-NAMING-CONSISTENCY-CLOSURE",
+  "source_internal_commit_sha": "2ad21140a7d9cee539e2768bfa9ae0fef618a3ce",
+  "source_sync_id": "PUBLIC-RI-NAMING-CONSISTENCY-CLOSURE",
+  "supersedes_snapshot_id": "SYNC-PUBLIC-RI5-EVIDENCE-FOUNDATION-MILESTONE-CLOSURE"
 }
