@@ -32,7 +32,7 @@
     ],
     "current_development_phase": "RI #5 EVIDENCE FOUNDATION → RI #4 EVIDENCE-DRIVEN RUNTIME HARDENING"
   },
-  "generated_at": "2026-09-04T20:00:00+09:00",
+  "generated_at": "2026-09-04T20:20:00+09:00",
   "paid_pdf": {
     "canonical_authority": "INTERNAL ONLY / PUBLIC READ-ONLY PROJECTION",
     "full_page_raster_pptx": "PROHIBITED",
@@ -122,7 +122,7 @@
       "integrity_path": "sync/contracts/ri5-development-gates.sha256",
       "mandatory": true,
       "projection_path": "sync/contracts/ri5-development-gates.json",
-      "projection_sha256": "900bc71313091eb62e25f7041959d39d4336a3e64bc69548df572edffbe2f559"
+      "projection_sha256": "0b7af02b5177ef5f20cef5112aebfe7198b091a89201d4aef53874ba7ad9108a"
     }
   ],
   "ri4_hardening": {
@@ -140,8 +140,8 @@
     "ri5_protection": "PROTECTED_BASE"
   },
   "schema_version": "1.0",
-  "snapshot_id": "SYNC-PUBLIC-RI4-AQC01-READY",
-  "source_internal_commit_sha": "235b2d449875f48b28e29506e85f82c047f27192",
+  "snapshot_id": "SYNC-PUBLIC-RI4-AQC01-READY-CLOSURE",
+  "source_internal_commit_sha": "2cdc74c796d13933476b0aa8bf961980414bb929",
   "source_sync_id": "CFG-20260904-002",
-  "supersedes_snapshot_id": "SYNC-PUBLIC-RI-NAMING-CONSISTENCY-CLOSURE"
+  "supersedes_snapshot_id": "SYNC-PUBLIC-RI4-AQC01-READY"
 }
