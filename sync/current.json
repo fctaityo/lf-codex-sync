@@ -32,7 +32,15 @@
     ],
     "current_development_phase": "RI #5 EVIDENCE FOUNDATION → RI #4 EVIDENCE-DRIVEN RUNTIME HARDENING"
   },
-  "generated_at": "2026-09-05T10:27:07+09:00",
+  "generated_at": "2026-09-05T21:25:46+09:00",
+  "note_editorial": {
+    "canonical_entry": "notes/editorial/note-publication-contract.md",
+    "current_state": "SERIES STRUCTURAL BASELINE MACHINE-GATED",
+    "public_canonical_commit_sha": "97ec9ef491ad03ff748ee42e9ec8cac05000348c",
+    "series_baseline_authority": "HUMAN ACCEPTED ARTICLE",
+    "series_baseline_projection": "notes/editorial/series-structure-baseline.json",
+    "static_gate": "scripts/note_publication_lint.py"
+  },
   "paid_pdf": {
     "canonical_authority": "INTERNAL ONLY / PUBLIC READ-ONLY PROJECTION",
     "full_page_raster_pptx": "PROHIBITED",
@@ -143,8 +151,8 @@
     "ri5_protection": "PROTECTED_BASE"
   },
   "schema_version": "1.0",
-  "snapshot_id": "SYNC-PUBLIC-SEMANTIC-ARCHITECTURE-20260905",
+  "snapshot_id": "SYNC-PUBLIC-NOTE-SERIES-STRUCTURAL-BASELINE-20260905",
   "source_internal_commit_sha": "12109ccb4b98c44f4cb7cdfb1944a53544f23835",
-  "source_sync_id": "CFG-20260905-002",
-  "supersedes_snapshot_id": "SYNC-PUBLIC-AQC01-01-CHECKPOINT-20260905"
+  "source_sync_id": "CFG-20260905-003",
+  "supersedes_snapshot_id": "SYNC-PUBLIC-SEMANTIC-ARCHITECTURE-20260905"
 }

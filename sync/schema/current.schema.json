@@ -7,7 +7,7 @@
   "required": [
     "schema_version", "project_id", "snapshot_id", "generated_at", "source_sync_id",
     "source_internal_commit_sha", "supersedes_snapshot_id", "projection_state",
-    "project", "active_work", "reference_implementations", "foundry_core", "ri4_hardening", "recovery"
+    "project", "active_work", "reference_implementations", "foundry_core", "ri4_hardening", "note_editorial", "recovery"
   ],
   "properties": {
     "schema_version": {"type": "string", "pattern": "^1(?:\\.[0-9]+)?$"},
@@ -115,6 +115,22 @@
         "ri5_protection": {"const": "PROTECTED_BASE"},
         "production_acceptance": {"const": "NOT REACHED"},
         "production_binding": {"const": "UNCHANGED"}
+      }
+    },
+    "note_editorial": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "canonical_entry", "current_state", "public_canonical_commit_sha",
+        "series_baseline_authority", "series_baseline_projection", "static_gate"
+      ],
+      "properties": {
+        "canonical_entry": {"const": "notes/editorial/note-publication-contract.md"},
+        "current_state": {"const": "SERIES STRUCTURAL BASELINE MACHINE-GATED"},
+        "public_canonical_commit_sha": {"type": "string", "pattern": "^[0-9a-f]{40}$", "x-lf-content-class": "machine-identity"},
+        "series_baseline_authority": {"const": "HUMAN ACCEPTED ARTICLE"},
+        "series_baseline_projection": {"const": "notes/editorial/series-structure-baseline.json"},
+        "static_gate": {"const": "scripts/note_publication_lint.py"}
       }
     },
     "paid_pdf": {
