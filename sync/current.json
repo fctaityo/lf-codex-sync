@@ -4,7 +4,7 @@
     "completed_checkpoint": "RI#5 Evidence Foundation milestone reached through Actual Human Runtime traceability / terminal HOLD lifecycle machine closed",
     "initiative": "RI #5 Evidence Foundation Milestone / RI #4 Evidence-Driven Runtime Hardening",
     "initiative_human_decision": "Case 1 traceability confirmed / Production Acceptance not granted / Production Binding unchanged",
-    "initiative_next_action": "Re-run AQC01-01 on the corrected RI#4 candidate before advancing to AQC01-02",
+    "initiative_next_action": "Implement and verify the Formal Semantic Acceptance architecture before AQC01-01 Human reentry; do not advance to AQC01-02",
     "status": "RI5 EVIDENCE FOUNDATION MILESTONE REACHED / RI4 QUALITY FINDING OPEN（Project State Published、Active Baseline BL-20260801-001不変、Production Acceptance未付与）"
   },
   "foundry_core": {
@@ -32,7 +32,7 @@
     ],
     "current_development_phase": "RI #5 EVIDENCE FOUNDATION → RI #4 EVIDENCE-DRIVEN RUNTIME HARDENING"
   },
-  "generated_at": "2026-09-05T03:48:46+09:00",
+  "generated_at": "2026-09-05T10:27:07+09:00",
   "paid_pdf": {
     "canonical_authority": "INTERNAL ONLY / PUBLIC READ-ONLY PROJECTION",
     "full_page_raster_pptx": "PROHIBITED",
@@ -51,7 +51,7 @@
     "active_baseline": "BL-20260801-001",
     "current_phase": "RI #5 Evidence Foundation Milestone Reached / RI #4 Evidence-Driven Runtime Hardening",
     "current_vector": "RI #5 EVIDENCE FOUNDATION → RI #4 EVIDENCE-DRIVEN RUNTIME HARDENING",
-    "project_next_action": "Re-run AQC01-01 on the corrected RI#4 candidate before advancing to AQC01-02",
+    "project_next_action": "Implement and verify the Formal Semantic Acceptance architecture before AQC01-01 Human reentry; do not advance to AQC01-02",
     "project_required_human_decision": "Case 1 traceability confirmed / Production Acceptance not granted / Production Binding unchanged",
     "project_state": "Published"
   },
@@ -96,7 +96,7 @@
       "current_role": "ACTIVE VALIDATION / EVIDENCE-DRIVEN RUNTIME HARDENING",
       "domain": "Research-Grounded Long-form Content Production",
       "id": "RI#4",
-      "implementation_state": "AQC01-01 correction regression-bound / Actual re-run required / Article Quality Baseline seeding / Production Acceptance Not Reached",
+      "implementation_state": "Semantic Acceptance architecture formalized / runtime implementation not started / Human reentry blocked pending verification / Production Acceptance Not Granted",
       "public_name": "Research-Grounded Long-form Production"
     },
     {
@@ -122,17 +122,18 @@
       "integrity_path": "sync/contracts/ri5-development-gates.sha256",
       "mandatory": true,
       "projection_path": "sync/contracts/ri5-development-gates.json",
-      "projection_sha256": "a660dab4cbc80045a4d82c370f70b5e0b9db8a50ab3c55a646e2acab3e449d13"
+      "projection_sha256": "4b35decb91ad35a037f875f95c436bb53ef019686f0def690ca9363f7acf2252"
     }
   ],
   "ri4_hardening": {
     "article_quality_baseline": "NOT_ESTABLISHED",
     "campaign": "AQC-01",
-    "campaign_state": "FAIL / HARDENING CONTINUES / CHECKPOINT SYNCHRONIZED",
+    "campaign_state": "FAIL / HARDENING CONTINUES / SEMANTIC ARCHITECTURE FORMALIZED / IMPLEMENTATION NOT STARTED",
     "next_milestone": "ARTICLE QUALITY BASELINE",
     "open_failure_families": [
       "FF-UC-001",
       "FF-IE-001",
+      "FF-AG-001",
       "FF-SC-001",
       "FF-GA-001",
       "FF-EV-001"
@@ -142,8 +143,8 @@
     "ri5_protection": "PROTECTED_BASE"
   },
   "schema_version": "1.0",
-  "snapshot_id": "SYNC-PUBLIC-AQC01-01-CHECKPOINT-20260905",
-  "source_internal_commit_sha": "c6961555764900e7272351c575d2f0c15e9df8bb",
-  "source_sync_id": "CFG-20260905-001",
-  "supersedes_snapshot_id": "SYNC-PUBLIC-AQC01-01-EDITORIAL-HARDENING-CLOSURE"
+  "snapshot_id": "SYNC-PUBLIC-SEMANTIC-ARCHITECTURE-20260905",
+  "source_internal_commit_sha": "12109ccb4b98c44f4cb7cdfb1944a53544f23835",
+  "source_sync_id": "CFG-20260905-002",
+  "supersedes_snapshot_id": "SYNC-PUBLIC-AQC01-01-CHECKPOINT-20260905"
 }

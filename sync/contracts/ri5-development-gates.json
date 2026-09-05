@@ -111,6 +111,11 @@
       "requirement": "A Human-originated Attempt is not terminal until its Evidence ZIP is finalized, persisted as the correct LF-EKB truth type, and its immutable receipt and artifact SHA are read back; persistence failure is fail-closed and Pre-Human Validation never increments Runtime Runs.",
       "rule_id": "RI5-EVIDENCE-ATTEMPT-010",
       "severity": "BLOCKING"
+    },
+    {
+      "requirement": "Recover the Internal RI4 Article Quality Hardening contract and its Semantic Acceptance architecture before implementation. Architecture formalization is not runtime implementation or acceptance. Human reentry requires verified implementation, fresh mandatory gates and synchronized evidence; AQC01-02 must not start while AQC01-01 remains unaccepted.",
+      "rule_id": "RI5-SEMANTIC-REENTRY-011",
+      "severity": "BLOCKING"
     }
   ],
   "projection_schema_version": "1.0",
@@ -179,7 +184,7 @@
     "Status Artifact Contract",
     "Runtime Execution Path Provenance Gate"
   ],
-  "source_internal_commit_sha": "c6961555764900e7272351c575d2f0c15e9df8bb",
+  "source_internal_commit_sha": "12109ccb4b98c44f4cb7cdfb1944a53544f23835",
   "supersedes": null,
   "v2_compare_semantic_preservation": {
     "comparison_axis": "USE_CASE",
