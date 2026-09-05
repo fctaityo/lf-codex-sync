@@ -32,7 +32,7 @@
     ],
     "current_development_phase": "RI #5 EVIDENCE FOUNDATION → RI #4 EVIDENCE-DRIVEN RUNTIME HARDENING"
   },
-  "generated_at": "2026-09-06T05:17:29+09:00",
+  "generated_at": "2026-09-06T05:21:00+09:00",
   "note_editorial": {
     "canonical_entry": "notes/editorial/note-publication-contract.md",
     "current_state": "SERIES STRUCTURAL BASELINE MACHINE-GATED",
@@ -157,7 +157,7 @@
   },
   "schema_version": "1.0",
   "snapshot_id": "SYNC-PUBLIC-AQC01-V13-MACHINE-CLOSURE-20260906",
-  "source_internal_commit_sha": "031d7feded180167d77c15aa88d072ba17c03890",
+  "source_internal_commit_sha": "123d1d079c004625635b87fc99ca3cd8c6a731fa",
   "source_sync_id": "CFG-20260906-001",
   "supersedes_snapshot_id": "SYNC-PUBLIC-NOTE-SERIES-STRUCTURAL-BASELINE-20260905"
 }
