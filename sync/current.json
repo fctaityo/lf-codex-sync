@@ -4,7 +4,7 @@
     "completed_checkpoint": "RI#5 Evidence Foundation milestone reached through Actual Human Runtime traceability / terminal HOLD lifecycle machine closed",
     "initiative": "RI #5 Evidence Foundation Milestone / RI #4 Evidence-Driven Runtime Hardening",
     "initiative_human_decision": "Case 1 traceability confirmed / Production Acceptance not granted / Production Binding unchanged",
-    "initiative_next_action": "Implement and verify the Formal Semantic Acceptance architecture before AQC01-01 Human reentry; do not advance to AQC01-02",
+    "initiative_next_action": "AQC01-01 Human reentry is READY / PENDING FRESH HUMAN GO; do not auto-run Human Runtime or advance to AQC01-02",
     "status": "RI5 EVIDENCE FOUNDATION MILESTONE REACHED / RI4 QUALITY FINDING OPEN（Project State Published、Active Baseline BL-20260801-001不変、Production Acceptance未付与）"
   },
   "foundry_core": {
@@ -32,11 +32,11 @@
     ],
     "current_development_phase": "RI #5 EVIDENCE FOUNDATION → RI #4 EVIDENCE-DRIVEN RUNTIME HARDENING"
   },
-  "generated_at": "2026-09-05T21:25:46+09:00",
+  "generated_at": "2026-09-06T05:17:29+09:00",
   "note_editorial": {
     "canonical_entry": "notes/editorial/note-publication-contract.md",
     "current_state": "SERIES STRUCTURAL BASELINE MACHINE-GATED",
-    "public_canonical_commit_sha": "97ec9ef491ad03ff748ee42e9ec8cac05000348c",
+    "public_canonical_commit_sha": "685d492cf8dcce005c41668a7aa5fe63d00f9bb3",
     "series_baseline_authority": "HUMAN ACCEPTED ARTICLE",
     "series_baseline_projection": "notes/editorial/series-structure-baseline.json",
     "static_gate": "scripts/note_publication_lint.py"
@@ -59,7 +59,7 @@
     "active_baseline": "BL-20260801-001",
     "current_phase": "RI #5 Evidence Foundation Milestone Reached / RI #4 Evidence-Driven Runtime Hardening",
     "current_vector": "RI #5 EVIDENCE FOUNDATION → RI #4 EVIDENCE-DRIVEN RUNTIME HARDENING",
-    "project_next_action": "Implement and verify the Formal Semantic Acceptance architecture before AQC01-01 Human reentry; do not advance to AQC01-02",
+    "project_next_action": "AQC01-01 Human reentry READY / PENDING FRESH HUMAN GO; AQC01-02 remains NOT STARTED",
     "project_required_human_decision": "Case 1 traceability confirmed / Production Acceptance not granted / Production Binding unchanged",
     "project_state": "Published"
   },
@@ -104,7 +104,7 @@
       "current_role": "ACTIVE VALIDATION / EVIDENCE-DRIVEN RUNTIME HARDENING",
       "domain": "Research-Grounded Long-form Content Production",
       "id": "RI#4",
-      "implementation_state": "Semantic Acceptance architecture formalized / runtime implementation not started / Human reentry blocked pending verification / Production Acceptance Not Granted",
+      "implementation_state": "Semantic Acceptance v13 Machine Closed / Human reentry READY PENDING FRESH HUMAN GO / Production Acceptance Not Granted",
       "public_name": "Research-Grounded Long-form Production"
     },
     {
@@ -136,7 +136,12 @@
   "ri4_hardening": {
     "article_quality_baseline": "NOT_ESTABLISHED",
     "campaign": "AQC-01",
-    "campaign_state": "FAIL / HARDENING CONTINUES / SEMANTIC ARCHITECTURE FORMALIZED / IMPLEMENTATION NOT STARTED",
+    "campaign_state": "FAIL / HARDENING CONTINUES / SEMANTIC ACCEPTANCE MACHINE CLOSED / HUMAN REENTRY PENDING FRESH HUMAN GO",
+    "canonical_final": {
+      "filename": "LF-RI5-v1.0.2-RI4-v0.71-AQC01-SEMANTIC-ACCEPTANCE-CONTRACT-CONFORMANT-v13-FINAL-20260906.zip",
+      "sha256": "2C26D48F3FEDC2B2065890E51322A7C09A29933F4C2FC603A1E739FE67E95C41"
+    },
+    "machine_closure": "SATISFIED",
     "next_milestone": "ARTICLE QUALITY BASELINE",
     "open_failure_families": [
       "FF-UC-001",
@@ -151,8 +156,8 @@
     "ri5_protection": "PROTECTED_BASE"
   },
   "schema_version": "1.0",
-  "snapshot_id": "SYNC-PUBLIC-NOTE-SERIES-STRUCTURAL-BASELINE-20260905",
-  "source_internal_commit_sha": "12109ccb4b98c44f4cb7cdfb1944a53544f23835",
-  "source_sync_id": "CFG-20260905-003",
-  "supersedes_snapshot_id": "SYNC-PUBLIC-SEMANTIC-ARCHITECTURE-20260905"
+  "snapshot_id": "SYNC-PUBLIC-AQC01-V13-MACHINE-CLOSURE-20260906",
+  "source_internal_commit_sha": "031d7feded180167d77c15aa88d072ba17c03890",
+  "source_sync_id": "CFG-20260906-001",
+  "supersedes_snapshot_id": "SYNC-PUBLIC-NOTE-SERIES-STRUCTURAL-BASELINE-20260905"
 }
