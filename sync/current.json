@@ -32,7 +32,7 @@
     ],
     "current_development_phase": "RI #5 EVIDENCE FOUNDATION → RI #4 EVIDENCE-DRIVEN RUNTIME HARDENING"
   },
-  "generated_at": "2026-09-06T06:45:00+09:00",
+  "generated_at": "2026-09-06T09:13:23+09:00",
   "note_editorial": {
     "canonical_entry": "notes/editorial/note-publication-contract.md",
     "current_state": "SERIES STRUCTURAL BASELINE MACHINE-GATED",
@@ -59,7 +59,7 @@
     "active_baseline": "BL-20260801-001",
     "current_phase": "RI #5 Evidence Foundation Milestone Reached / RI #4 Evidence-Driven Runtime Hardening",
     "current_vector": "RI #5 EVIDENCE FOUNDATION → RI #4 EVIDENCE-DRIVEN RUNTIME HARDENING",
-    "project_next_action": "AQC01-01 Human reentry READY / PENDING FRESH HUMAN GO; AQC01-02 remains NOT STARTED",
+    "project_next_action": "AQC01-01 Human reentry is READY / PENDING FRESH HUMAN GO; do not auto-run Human Runtime or advance to AQC01-02",
     "project_required_human_decision": "Case 1 traceability confirmed / Production Acceptance not granted / Production Binding unchanged",
     "project_state": "Published"
   },
@@ -104,7 +104,7 @@
       "current_role": "ACTIVE VALIDATION / EVIDENCE-DRIVEN RUNTIME HARDENING",
       "domain": "Research-Grounded Long-form Content Production",
       "id": "RI#4",
-      "implementation_state": "Semantic Acceptance v13 Machine Closed / Human reentry READY PENDING FRESH HUMAN GO / Production Acceptance Not Granted",
+      "implementation_state": "Runtime Authority v14 Machine Closed / Human reentry READY PENDING FRESH HUMAN GO / Production Acceptance Not Granted",
       "public_name": "Research-Grounded Long-form Production"
     },
     {
@@ -130,7 +130,7 @@
       "integrity_path": "sync/contracts/ri5-development-gates.sha256",
       "mandatory": true,
       "projection_path": "sync/contracts/ri5-development-gates.json",
-      "projection_sha256": "be75c26e69c08ddf74e8740a7015c1a4b3a1d453043cc181e4fc980d1fdff6e8"
+      "projection_sha256": "897d9528be09f1e0f498702754a7e1151bca1c824d2e1c2274a3e4a48d9af820"
     }
   ],
   "ri4_hardening": {
@@ -138,8 +138,8 @@
     "campaign": "AQC-01",
     "campaign_state": "FAIL / HARDENING CONTINUES / SEMANTIC ACCEPTANCE MACHINE CLOSED / HUMAN REENTRY PENDING FRESH HUMAN GO",
     "canonical_final": {
-      "filename": "LF-RI5-v1.0.2-RI4-v0.71-AQC01-SEMANTIC-ACCEPTANCE-CONTRACT-CONFORMANT-v13-FINAL-20260906.zip",
-      "sha256": "2C26D48F3FEDC2B2065890E51322A7C09A29933F4C2FC603A1E739FE67E95C41"
+      "filename": "LF-RI5-v1.0.2-RI4-v0.71-AQC01-RUNTIME-AUTHORITY-CLOSURE-v14-FINAL-20260906.zip",
+      "sha256": "C819E1744635F7EFDDEFD2D03BBF56ECB015AB279AB1F4D57ED1B1B6851263BB"
     },
     "machine_closure": "SATISFIED",
     "next_milestone": "ARTICLE QUALITY BASELINE",
@@ -156,8 +156,8 @@
     "ri5_protection": "PROTECTED_BASE"
   },
   "schema_version": "1.0",
-  "snapshot_id": "SYNC-PUBLIC-DETERMINISTIC-BOUNDARY-SHOWCASE-20260906",
-  "source_internal_commit_sha": "00e54fb33e8fa0ee571300f08378e61d3a204fa0",
-  "source_sync_id": "CFG-20260906-002",
-  "supersedes_snapshot_id": "SYNC-PUBLIC-AQC01-V13-MACHINE-CLOSURE-20260906"
+  "snapshot_id": "SYNC-PUBLIC-AQC01-V14-RUNTIME-AUTHORITY-CLOSURE-20260906",
+  "source_internal_commit_sha": "c4c6ff2ad43096972ad7dceda72ebc23aee30ff6",
+  "source_sync_id": "CFG-20260906-003",
+  "supersedes_snapshot_id": "SYNC-PUBLIC-DETERMINISTIC-BOUNDARY-SHOWCASE-20260906"
 }
