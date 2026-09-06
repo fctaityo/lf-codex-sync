@@ -32,11 +32,11 @@
     ],
     "current_development_phase": "RI #5 EVIDENCE FOUNDATION → RI #4 EVIDENCE-DRIVEN RUNTIME HARDENING"
   },
-  "generated_at": "2026-09-06T09:13:23+09:00",
+  "generated_at": "2026-09-06T09:14:54+09:00",
   "note_editorial": {
     "canonical_entry": "notes/editorial/note-publication-contract.md",
     "current_state": "SERIES STRUCTURAL BASELINE MACHINE-GATED",
-    "public_canonical_commit_sha": "ca4b13d3118e0f4b5d24cc3350996c99f580eb89",
+    "public_canonical_commit_sha": "4d9b36ff993661fcd345e31429061510015e36f2",
     "series_baseline_authority": "HUMAN ACCEPTED ARTICLE",
     "series_baseline_projection": "notes/editorial/series-structure-baseline.json",
     "static_gate": "scripts/note_publication_lint.py"
@@ -156,8 +156,8 @@
     "ri5_protection": "PROTECTED_BASE"
   },
   "schema_version": "1.0",
-  "snapshot_id": "SYNC-PUBLIC-AQC01-V14-RUNTIME-AUTHORITY-CLOSURE-20260906",
+  "snapshot_id": "SYNC-PUBLIC-AQC01-V14-RUNTIME-AUTHORITY-CLOSURE-READBACK-20260906",
   "source_internal_commit_sha": "c4c6ff2ad43096972ad7dceda72ebc23aee30ff6",
   "source_sync_id": "CFG-20260906-003",
-  "supersedes_snapshot_id": "SYNC-PUBLIC-DETERMINISTIC-BOUNDARY-SHOWCASE-20260906"
+  "supersedes_snapshot_id": "SYNC-PUBLIC-AQC01-V14-RUNTIME-AUTHORITY-CLOSURE-20260906"
 }
