@@ -184,7 +184,7 @@
     "Status Artifact Contract",
     "Runtime Execution Path Provenance Gate"
   ],
-  "source_internal_commit_sha": "9d1f9b154703791c726568532b9fcd9f682f927f",
+  "source_internal_commit_sha": "83ba9576132fa800da99f71e022efda1fc028e45",
   "supersedes": null,
   "v2_compare_semantic_preservation": {
     "comparison_axis": "USE_CASE",

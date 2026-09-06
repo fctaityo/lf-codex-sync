@@ -4,7 +4,7 @@
     "completed_checkpoint": "RI#5 Evidence Foundation milestone reached through Actual Human Runtime traceability / terminal HOLD lifecycle machine closed",
     "initiative": "RI #5 Evidence Foundation Milestone / RI #4 Evidence-Driven Runtime Hardening",
     "initiative_human_decision": "Case 1 traceability confirmed / Production Acceptance not granted / Production Binding unchanged",
-    "initiative_next_action": "v15 implementation is authorized for four bounded workstreams; Human Runtime is not authorized and AQC01-02 must not start",
+    "initiative_next_action": "v15 implementation candidate is machine-closed and independently verified; Canonical FINAL packaging authority review is next; Human Runtime is not authorized and AQC01-02 must not start",
     "status": "RI5 EVIDENCE FOUNDATION MILESTONE REACHED / RI4 QUALITY FINDING OPEN（Project State Published、Active Baseline BL-20260801-001不変、Production Acceptance未付与）"
   },
   "foundry_core": {
@@ -32,7 +32,7 @@
     ],
     "current_development_phase": "RI #5 EVIDENCE FOUNDATION → RI #4 EVIDENCE-DRIVEN RUNTIME HARDENING"
   },
-  "generated_at": "2026-09-06T12:15:00+09:00",
+  "generated_at": "2026-09-06T15:30:00+09:00",
   "note_editorial": {
     "canonical_entry": "notes/editorial/note-publication-contract.md",
     "current_state": "SERIES STRUCTURAL BASELINE MACHINE-GATED",
@@ -59,7 +59,7 @@
     "active_baseline": "BL-20260801-001",
     "current_phase": "RI #5 Evidence Foundation Milestone Reached / RI #4 Evidence-Driven Runtime Hardening",
     "current_vector": "RI #5 EVIDENCE FOUNDATION → RI #4 EVIDENCE-DRIVEN RUNTIME HARDENING",
-    "project_next_action": "v15 implementation is authorized for four bounded workstreams; Human Runtime is not authorized and AQC01-02 must not start",
+    "project_next_action": "v15 implementation candidate is machine-closed and independently verified; Canonical FINAL packaging authority review is next; Human Runtime is not authorized and AQC01-02 must not start",
     "project_required_human_decision": "Case 1 traceability confirmed / Production Acceptance not granted / Production Binding unchanged",
     "project_state": "Published"
   },
@@ -104,7 +104,7 @@
       "current_role": "ACTIVE VALIDATION / EVIDENCE-DRIVEN RUNTIME HARDENING",
       "domain": "Research-Grounded Long-form Content Production",
       "id": "RI#4",
-      "implementation_state": "AQC01-01 Design Review complete / bounded v15 implementation authorized / Human Runtime not authorized / Production Acceptance Not Granted",
+      "implementation_state": "AQC01-01 v15 implementation candidate machine-closed / independent verification pass / Human Runtime not authorized / Production Acceptance Not Granted",
       "public_name": "Research-Grounded Long-form Production"
     },
     {
@@ -130,13 +130,13 @@
       "integrity_path": "sync/contracts/ri5-development-gates.sha256",
       "mandatory": true,
       "projection_path": "sync/contracts/ri5-development-gates.json",
-      "projection_sha256": "c6da458da237dab8c47497fdc67e483f455e0397bdebb9cabc2fecb0ea9090b7"
+      "projection_sha256": "a52aa4af46d38e69705ad31e6b0ee3a3d3b310a0152b7c8ffb7e78b43c427ae2"
     }
   ],
   "ri4_hardening": {
     "article_quality_baseline": "NOT_ESTABLISHED",
     "campaign": "AQC-01",
-    "campaign_state": "AQC01-01 DESIGN REVIEW COMPLETE / HUMAN IMPLEMENTATION AUTHORIZATION GRANTED / V15 IMPLEMENTATION READY",
+    "campaign_state": "AQC01-01 V15 IMPLEMENTATION CANDIDATE MACHINE CLOSED / INDEPENDENT VERIFICATION PASS / HUMAN RUNTIME NOT AUTHORIZED",
     "canonical_final": {
       "filename": "LF-RI5-v1.0.2-RI4-v0.71-AQC01-RUNTIME-AUTHORITY-CLOSURE-v14-FINAL-20260906.zip",
       "sha256": "C819E1744635F7EFDDEFD2D03BBF56ECB015AB279AB1F4D57ED1B1B6851263BB"
@@ -156,8 +156,8 @@
     "ri5_protection": "PROTECTED_BASE"
   },
   "schema_version": "1.0",
-  "snapshot_id": "SYNC-PUBLIC-AQC01-V15-IMPLEMENTATION-AUTHORIZED-20260906",
-  "source_internal_commit_sha": "9d1f9b154703791c726568532b9fcd9f682f927f",
-  "source_sync_id": "CFG-20260906-005",
-  "supersedes_snapshot_id": "SYNC-PUBLIC-AQC01-V14-HUMAN-RUNTIME-FAIL-20260906"
+  "snapshot_id": "SYNC-PUBLIC-AQC01-V15-IMPLEMENTATION-CANDIDATE-MACHINE-CLOSURE-20260906",
+  "source_internal_commit_sha": "83ba9576132fa800da99f71e022efda1fc028e45",
+  "source_sync_id": "CFG-20260906-006",
+  "supersedes_snapshot_id": "SYNC-PUBLIC-AQC01-V15-IMPLEMENTATION-AUTHORIZED-20260906"
 }
