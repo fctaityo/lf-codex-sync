@@ -20,6 +20,57 @@
     "RI5_HUMAN_RUNTIME_VERIFICATION",
     "SYNCHRONIZATION_CLOSURE"
   ],
+  "actor_responsibility_separation": {
+    "astra6_escalation_exception": {
+      "allowed_reasons": [
+        "REPEATED_BOUNDED_CHATGPT_REPAIR_LOOP_SAME_BLOCKER_NOT_CLOSED",
+        "UNRESOLVED_LOGIC_DESIGN_OR_ARCHITECTURE_BLOCKER_OUTSIDE_SAFE_NORMAL_CHATGPT_SCOPE"
+      ],
+      "declaration": "ASTRA6_ESCALATION_REQUIRED",
+      "explicit_human_authorization_required": true,
+      "forbidden_reasons": [
+        "CONVENIENCE",
+        "SPEED",
+        "ROUTINE_PATCH",
+        "COSMETIC_WORK",
+        "ORDINARY_PACKAGE_MAINTENANCE"
+      ],
+      "required_preconditions": [
+        "UNRESOLVED_BLOCKING_FINDING",
+        "NORMAL_CHATGPT_REPAIR_NON_CONVERGENCE_REASON",
+        "MINIMUM_PACKAGE_SCOPE",
+        "PROTECTED_BEHAVIOR_AND_ANTI_REGRESSION_BOUNDARY",
+        "HUMAN_EXPLICIT_AUTHORIZATION_OR_EXACT_CURRENT_CANONICAL_AUTHORITY"
+      ],
+      "responsibility_after_closure": "RETURN_TO_NORMAL_CHATGPT_CODEX_HUMAN_BOUNDARY",
+      "scope": "IRREGULAR_MINIMUM_SCOPE_CODEX_PACKAGE_REPAIR_USING_ASTRA6",
+      "status": "EXCEPTION_ONLY_NOT_GENERAL_CODEX_PACKAGE_REPAIR_AUTHORITY"
+    },
+    "chatgpt": [
+      "CANDIDATE_AND_PACKAGE_CONTENT_REPAIR",
+      "PACKAGE_INTERNAL_IMPLEMENTATION_CHANGE",
+      "ARTIFACT_RECONSTRUCTION_AND_PACKAGE_REBUILD",
+      "PACKAGE_LOCAL_GENERATION_AND_VALIDATION",
+      "OVERWRITE_READY_ZIP_CREATION"
+    ],
+    "codex": [
+      "MANAGEMENT_PURPOSE_MUTATION_OF_HUMAN_MANAGED_LOCAL_PROJECT_STATE",
+      "CANONICAL_CURRENT_AND_CONFIGURATION_MANAGEMENT_STATE",
+      "SYNC_PROJECTION_AND_INTEGRITY_SIDECAR",
+      "GIT_MANAGED_FILES_COMMIT_PUSH_AND_REMOTE_READ_BACK",
+      "CURRENTIZATION_AND_MANAGED_REPLACEMENT"
+    ],
+    "human": [
+      "HUMAN_RUNTIME_EXECUTION",
+      "HUMAN_VISUAL_ACCEPTANCE",
+      "HUMAN_GO_HOLD_PASS_FAIL",
+      "PHYSICAL_DEVICE_JUDGMENT_AND_EXPLICIT_HUMAN_RUNTIME_AUTHORITY"
+    ],
+    "human_manual_management_edit_as_codex_substitute": "PROHIBITED",
+    "machine_verification_substitutes_for_human_acceptance": false,
+    "rule_id": "RI5-ACTOR-RESPONSIBILITY-012",
+    "severity": "BLOCKING"
+  },
   "authority": "INTERNAL CANONICAL / PUBLIC READ-ONLY PROJECTION",
   "contract_id": "LF-RI5-DEVELOPMENT-GATES",
   "contract_name": "RI#5 Development and Candidate Release Gates",
@@ -116,6 +167,11 @@
       "requirement": "Recover the Internal RI4 Article Quality Hardening contract and its Semantic Acceptance architecture before implementation. Architecture formalization is not runtime implementation or acceptance. Human reentry requires verified implementation, fresh mandatory gates and synchronized evidence; AQC01-02 must not start while AQC01-01 remains unaccepted.",
       "rule_id": "RI5-SEMANTIC-REENTRY-011",
       "severity": "BLOCKING"
+    },
+    {
+      "requirement": "Package repair and managed local-state mutation MUST remain actor-separated. ChatGPT owns package/artifact repair and rebuild; CODEX owns management-purpose mutation/currentization of the Human user's managed local project state; Human owns Human Runtime and acceptance authority. Human manual management edits MUST NOT be used as a substitute for CODEX, and CODEX MUST NOT be used as a substitute for ChatGPT package repair. Exception: when normal ChatGPT repair cannot converge because of a repeated bounded repair loop or unresolved logic/architecture blocker, CODEX may perform a minimum-scope package repair using Astra6 only as an explicitly declared, Human-authorized irregular escalation. This exception does not transfer normal package-repair ownership to CODEX.",
+      "rule_id": "RI5-ACTOR-RESPONSIBILITY-012",
+      "severity": "BLOCKING"
     }
   ],
   "projection_schema_version": "1.0",
@@ -184,7 +240,7 @@
     "Status Artifact Contract",
     "Runtime Execution Path Provenance Gate"
   ],
-  "source_internal_commit_sha": "3a91dba08d1aeca7e509a5f7d8c7bb6db06643e1",
+  "source_internal_commit_sha": "d8130b31705fb70bc13b2db0ca3fdd5b45473ee8",
   "supersedes": null,
   "v2_compare_semantic_preservation": {
     "comparison_axis": "USE_CASE",

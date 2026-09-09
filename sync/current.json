@@ -32,7 +32,7 @@
     ],
     "current_development_phase": "RI #5 EVIDENCE FOUNDATION → RI #4 EVIDENCE-DRIVEN RUNTIME HARDENING"
   },
-  "generated_at": "2026-09-07T17:13:46+09:00",
+  "generated_at": "2026-09-09T17:24:34+09:00",
   "note_editorial": {
     "canonical_entry": "notes/editorial/note-publication-contract.md",
     "current_state": "SERIES STRUCTURAL BASELINE MACHINE-GATED",
@@ -130,7 +130,7 @@
       "integrity_path": "sync/contracts/ri5-development-gates.sha256",
       "mandatory": true,
       "projection_path": "sync/contracts/ri5-development-gates.json",
-      "projection_sha256": "1658eb29b5db1b5893eb580b13e11c0307cf7f2d2965b2c3d5cfffcda2c1024f"
+      "projection_sha256": "7150d91a335d1d656aaae5a989f75705d98d48889e71dbabcf436b34431b93b6"
     }
   ],
   "ri4_hardening": {
@@ -156,8 +156,8 @@
     "ri5_protection": "PROTECTED_BASE"
   },
   "schema_version": "1.0",
-  "snapshot_id": "SYNC-PUBLIC-AQC01-V16-R4-CANONICAL-FINAL-CLOSURE-20260907",
-  "source_internal_commit_sha": "3a91dba08d1aeca7e509a5f7d8c7bb6db06643e1",
-  "source_sync_id": "CFG-20260907-001",
-  "supersedes_snapshot_id": "SYNC-PUBLIC-AQC01-V15-CANONICAL-FINAL-CLOSURE-20260906"
+  "snapshot_id": "SYNC-PUBLIC-ACTOR-RESPONSIBILITY-CURRENTIZATION-20260909",
+  "source_internal_commit_sha": "d8130b31705fb70bc13b2db0ca3fdd5b45473ee8",
+  "source_sync_id": "CFG-20260909-001",
+  "supersedes_snapshot_id": "SYNC-PUBLIC-AQC01-V16-R4-CANONICAL-FINAL-CLOSURE-20260907"
 }
