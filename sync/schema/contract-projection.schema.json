@@ -6,7 +6,7 @@
   "additionalProperties": false,
   "required": [
     "projection_schema_version", "contract_id", "contract_name", "source_internal_commit_sha",
-    "applies_to", "source_contracts", "release_binding", "evidence_attempt_invariant", "v2_compare_semantic_preservation", "session_log_root_cause_and_campaign_heartbeat", "v2_entry_validation_session_carry_forward", "llm_evidence_environment_fail_safe", "llm_evidence_probe_cwd_isolation", "restored_terminal_hold_start_closure", "actual_human_runtime_case_1", "mandatory_rules", "supersedes", "projection_state", "authority"
+    "applies_to", "source_contracts", "release_binding", "source_authority", "evidence_attempt_invariant", "v2_compare_semantic_preservation", "session_log_root_cause_and_campaign_heartbeat", "v2_entry_validation_session_carry_forward", "llm_evidence_environment_fail_safe", "llm_evidence_probe_cwd_isolation", "restored_terminal_hold_start_closure", "actual_human_runtime_case_1", "mandatory_rules", "supersedes", "projection_state", "authority"
   ],
   "properties": {
     "projection_schema_version": {"type": "string", "const": "1.0"},
@@ -72,6 +72,18 @@
           "minItems": 5,
           "maxItems": 5
         }
+      }
+    },
+    "source_authority": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["contract_id", "revision", "sha256", "blocking_rule_id", "implementation_state"],
+      "properties": {
+        "contract_id": {"const": "RI4-SOURCE-PROPOSITION-AUTHORITY"},
+        "revision": {"const": "2026-09-24.1"},
+        "sha256": {"type": "string", "pattern": "^[0-9a-f]{64}$", "x-lf-content-class": "machine-identity"},
+        "blocking_rule_id": {"const": "RI5-SOURCE-AUTHORITY-013"},
+        "implementation_state": {"const": "CURRENT_FORMAL_CONTRACT_IMPLEMENTATION_NOT_STARTED"}
       }
     },
     "evidence_attempt_invariant": {
