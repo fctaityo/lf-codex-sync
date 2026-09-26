@@ -118,7 +118,7 @@
       "severity": "BLOCKING"
     },
     {
-      "requirement": "Before material admission and final acceptance, Selector, Writer, Review and Semantic Gate MUST bind the same fresh Source Authority Manifest revision/hash and material/proposition IDs. Raw parser history remains immutable; FULL_VERIFIED resolution and derived facts require provenance, deterministic recomputation, scope proof, and fail-closed rejection of stale, unknown or inconsistent authority. Machine authority failures MUST NOT be resolved by Writer retry.",
+      "requirement": "All stages MUST bind one fresh Source Authority Manifest and proof IDs. Raw history stays immutable. FULL_VERIFIED requires independent verification of exact spans, coverage, identity, scope, provenance and task binding. Character ownership additionally requires verified work/anaphor/role premises, complete intervening-text and boundary proof, unique referents and no scope or relation inheritance. UNKNOWN, stale or inconsistent authority MUST block admission; Writer retry MUST NOT repair authority.",
       "rule_id": "RI5-SOURCE-AUTHORITY-013",
       "severity": "BLOCKING"
     }
@@ -184,8 +184,8 @@
     "blocking_rule_id": "RI5-SOURCE-AUTHORITY-013",
     "contract_id": "RI4-SOURCE-PROPOSITION-AUTHORITY",
     "implementation_state": "CURRENT_FORMAL_CONTRACT_IMPLEMENTATION_NOT_STARTED",
-    "revision": "2026-09-24.1",
-    "sha256": "78af994602a3c6ba83f42abc7b0f671741e409bca2eebd1e0339192b4b1629ff"
+    "revision": "2026-09-26.1",
+    "sha256": "ccf52ec7cac14b488dc636b477677cbb9c074969772b93624757d53689605247"
   },
   "source_contracts": [
     "Configuration Management",
@@ -196,7 +196,7 @@
     "Status Artifact Contract",
     "Runtime Execution Path Provenance Gate"
   ],
-  "source_internal_commit_sha": "3332911b6064a9b235d69fd408ec67c00163bac0",
+  "source_internal_commit_sha": "ae64624975f6ce57630e3d2299e24084e4da1ebe",
   "supersedes": null,
   "v2_compare_semantic_preservation": {
     "comparison_axis": "USE_CASE",

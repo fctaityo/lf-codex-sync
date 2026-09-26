@@ -80,7 +80,7 @@
       "required": ["contract_id", "revision", "sha256", "blocking_rule_id", "implementation_state"],
       "properties": {
         "contract_id": {"const": "RI4-SOURCE-PROPOSITION-AUTHORITY"},
-        "revision": {"const": "2026-09-24.1"},
+        "revision": {"const": "2026-09-26.1"},
         "sha256": {"type": "string", "pattern": "^[0-9a-f]{64}$", "x-lf-content-class": "machine-identity"},
         "blocking_rule_id": {"const": "RI5-SOURCE-AUTHORITY-013"},
         "implementation_state": {"const": "CURRENT_FORMAL_CONTRACT_IMPLEMENTATION_NOT_STARTED"}
