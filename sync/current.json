@@ -32,7 +32,7 @@
     ],
     "current_development_phase": "RI #5 EVIDENCE FOUNDATION → RI #4 EVIDENCE-DRIVEN RUNTIME HARDENING"
   },
-  "generated_at": "2026-09-26T17:48:00+09:00",
+  "generated_at": "2026-09-26T19:48:42+09:00",
   "note_editorial": {
     "canonical_entry": "notes/editorial/note-publication-contract.md",
     "current_state": "SERIES STRUCTURAL BASELINE MACHINE-GATED",
@@ -130,7 +130,7 @@
       "integrity_path": "sync/contracts/ri5-development-gates.sha256",
       "mandatory": true,
       "projection_path": "sync/contracts/ri5-development-gates.json",
-      "projection_sha256": "3c897ecee638c88362e29ee40bf503017b400986fa7c03c6b91979f40d2e50a3"
+      "projection_sha256": "861ff7623adaa1976d3a16ec7c4ed963edf87795fe85d150b9d5b997d4010bdb"
     }
   ],
   "ri4_hardening": {
@@ -156,8 +156,8 @@
     "ri5_protection": "PROTECTED_BASE"
   },
   "schema_version": "1.0",
-  "snapshot_id": "SYNC-PUBLIC-SOURCE-CHARACTER-OWNERSHIP-CURRENTIZATION-20260926",
-  "source_internal_commit_sha": "ae64624975f6ce57630e3d2299e24084e4da1ebe",
-  "source_sync_id": "CFG-20260926-001",
-  "supersedes_snapshot_id": "SYNC-PUBLIC-SOURCE-PROPOSITION-AUTHORITY-CURRENTIZATION-20260924"
+  "snapshot_id": "SYNC-PUBLIC-CANONICAL-CONTRACT-IDENTITY-REPAIR-20260926",
+  "source_internal_commit_sha": "bd17f666370ec1e5c7552a62aca435168fb3dbbb",
+  "source_sync_id": "CFG-20260926-002",
+  "supersedes_snapshot_id": "SYNC-PUBLIC-SOURCE-CHARACTER-OWNERSHIP-CURRENTIZATION-20260926"
 }

@@ -185,7 +185,7 @@
     "contract_id": "RI4-SOURCE-PROPOSITION-AUTHORITY",
     "implementation_state": "CURRENT_FORMAL_CONTRACT_IMPLEMENTATION_NOT_STARTED",
     "revision": "2026-09-26.1",
-    "sha256": "ccf52ec7cac14b488dc636b477677cbb9c074969772b93624757d53689605247"
+    "sha256": "539240079c2f9bfd9106a206fb8e1c0dad37f00239356d692787e55be5e30096"
   },
   "source_contracts": [
     "Configuration Management",
@@ -196,7 +196,7 @@
     "Status Artifact Contract",
     "Runtime Execution Path Provenance Gate"
   ],
-  "source_internal_commit_sha": "ae64624975f6ce57630e3d2299e24084e4da1ebe",
+  "source_internal_commit_sha": "bd17f666370ec1e5c7552a62aca435168fb3dbbb",
   "supersedes": null,
   "v2_compare_semantic_preservation": {
     "comparison_axis": "USE_CASE",
