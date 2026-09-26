@@ -77,11 +77,15 @@
     "source_authority": {
       "type": "object",
       "additionalProperties": false,
-      "required": ["contract_id", "revision", "sha256", "blocking_rule_id", "implementation_state"],
+      "required": ["contract_id", "revision", "sha256", "contract_schema_sha256", "character_ownership_schema_sha256", "block_continuity_schema_sha256", "acceptance_cases_sha256", "blocking_rule_id", "implementation_state"],
       "properties": {
         "contract_id": {"const": "RI4-SOURCE-PROPOSITION-AUTHORITY"},
-        "revision": {"const": "2026-09-26.1"},
+        "revision": {"const": "2026-09-26.2"},
         "sha256": {"type": "string", "pattern": "^[0-9a-f]{64}$", "x-lf-content-class": "machine-identity"},
+        "contract_schema_sha256": {"type": "string", "pattern": "^[0-9a-f]{64}$", "x-lf-content-class": "machine-identity"},
+        "character_ownership_schema_sha256": {"type": "string", "pattern": "^[0-9a-f]{64}$", "x-lf-content-class": "machine-identity"},
+        "block_continuity_schema_sha256": {"type": "string", "pattern": "^[0-9a-f]{64}$", "x-lf-content-class": "machine-identity"},
+        "acceptance_cases_sha256": {"type": "string", "pattern": "^[0-9a-f]{64}$", "x-lf-content-class": "machine-identity"},
         "blocking_rule_id": {"const": "RI5-SOURCE-AUTHORITY-013"},
         "implementation_state": {"const": "CURRENT_FORMAL_CONTRACT_IMPLEMENTATION_NOT_STARTED"}
       }

@@ -118,7 +118,7 @@
       "severity": "BLOCKING"
     },
     {
-      "requirement": "All stages MUST bind one fresh Source Authority Manifest and proof IDs. Raw history stays immutable. FULL_VERIFIED requires independent verification of exact spans, coverage, identity, scope, provenance and task binding. Character ownership additionally requires verified work/anaphor/role premises, complete intervening-text and boundary proof, unique referents and no scope or relation inheritance. UNKNOWN, stale or inconsistent authority MUST block admission; Writer retry MUST NOT repair authority.",
+      "requirement": "All stages bind one fresh Source Authority Manifest. SA-CONTEXT-BLOCK-CONTINUITY-001 allows one adjacent BODY paragraph only with immutable capture, complete intervening-text and boundary proof, verified selected-work/context, unique anaphor, explicit role and recomputation. Distance, boundary/topic change, UNKNOWN/ambiguity, remote/transitive inference or scope/relation inheritance rejects. All 33 cases require Runtime evidence; schema validity is not Runtime proof; Writer retry cannot repair authority.",
       "rule_id": "RI5-SOURCE-AUTHORITY-013",
       "severity": "BLOCKING"
     }
@@ -181,11 +181,15 @@
     "terminal_hold_semantics": "UNCHANGED"
   },
   "source_authority": {
+    "acceptance_cases_sha256": "660e2f0c6d6a1b55ea52c5d82d2802882bf0def4992a00810a86baa5762b819d",
+    "block_continuity_schema_sha256": "dc1a4bb6681376dd312145ede4178b23b9e934feec20501228e1284d09daedb4",
     "blocking_rule_id": "RI5-SOURCE-AUTHORITY-013",
+    "character_ownership_schema_sha256": "7aad162e75bc33c43f9989557fc96de81e636d4de6611ad08bdbf5994b9aec0f",
     "contract_id": "RI4-SOURCE-PROPOSITION-AUTHORITY",
+    "contract_schema_sha256": "d857765d74f56c88352ca0f357d22cae9418cdf93ddd099f6ae18a8683e1d032",
     "implementation_state": "CURRENT_FORMAL_CONTRACT_IMPLEMENTATION_NOT_STARTED",
-    "revision": "2026-09-26.1",
-    "sha256": "539240079c2f9bfd9106a206fb8e1c0dad37f00239356d692787e55be5e30096"
+    "revision": "2026-09-26.2",
+    "sha256": "1ed177489fdc350fcb3ee04c5ddcb0ccf0ab534e8e7c9a4c9654df3ef74de2c1"
   },
   "source_contracts": [
     "Configuration Management",
@@ -196,7 +200,7 @@
     "Status Artifact Contract",
     "Runtime Execution Path Provenance Gate"
   ],
-  "source_internal_commit_sha": "bd17f666370ec1e5c7552a62aca435168fb3dbbb",
+  "source_internal_commit_sha": "5c36e2d438b558829e19d16f375771cc96d836c6",
   "supersedes": null,
   "v2_compare_semantic_preservation": {
     "comparison_axis": "USE_CASE",
