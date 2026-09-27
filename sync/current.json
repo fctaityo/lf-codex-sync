@@ -32,7 +32,7 @@
     ],
     "current_development_phase": "RI #5 EVIDENCE FOUNDATION → RI #4 EVIDENCE-DRIVEN RUNTIME HARDENING"
   },
-  "generated_at": "2026-09-27T07:30:00+09:00",
+  "generated_at": "2026-09-27T13:00:00+09:00",
   "note_editorial": {
     "canonical_entry": "notes/editorial/note-publication-contract.md",
     "current_state": "SERIES STRUCTURAL BASELINE MACHINE-GATED",
@@ -130,7 +130,7 @@
       "integrity_path": "sync/contracts/ri5-development-gates.sha256",
       "mandatory": true,
       "projection_path": "sync/contracts/ri5-development-gates.json",
-      "projection_sha256": "8456b5c6c4ed94d30b5175364462ad1db551d1098189cc21516dfd33e8a8b0c9"
+      "projection_sha256": "ddf4488a678f878cdde61f4702e4e628c1d7766753d9c29ae54d25b1c4121a51"
     }
   ],
   "ri4_hardening": {
@@ -156,8 +156,8 @@
     "ri5_protection": "PROTECTED_BASE"
   },
   "schema_version": "1.0",
-  "snapshot_id": "SYNC-PUBLIC-APPLICABILITY-CONTRACT-CURRENTIZATION-20260927",
-  "source_internal_commit_sha": "fa0abd4f17657bf306df0704b8595b171daa37b0",
-  "source_sync_id": "CFG-20260927-001",
-  "supersedes_snapshot_id": "SYNC-PUBLIC-BLOCK-CONTINUITY-CURRENTIZATION-20260926"
+  "snapshot_id": "SYNC-PUBLIC-SCHEMA-COHERENCE-REPAIR-20260927",
+  "source_internal_commit_sha": "d2c856e5b31415a318e5ad20815b4d5db7b799c8",
+  "source_sync_id": "CFG-20260927-002",
+  "supersedes_snapshot_id": "SYNC-PUBLIC-APPLICABILITY-CONTRACT-CURRENTIZATION-20260927"
 }

@@ -189,9 +189,9 @@
     "applicability_rejection_schema_sha256": "f02cfa834d09f31ba20be62a7abbac1999baff321434ab536f6ba809223f8a66",
     "applicability_rule_id": "SA-APPLICABILITY-TASK-COMPATIBILITY-001",
     "applicability_task_target_schema_sha256": "0e99bfab62c8c7dfdf8427d0d2561863bc9d35e1655c90643c648df7bcf3c71c",
-    "block_continuity_schema_sha256": "dc1a4bb6681376dd312145ede4178b23b9e934feec20501228e1284d09daedb4",
+    "block_continuity_schema_sha256": "eeaea86920914826afb96c8151e3a131a4671719523d0f91ffcf883b81f49f44",
     "blocking_rule_id": "RI5-SOURCE-AUTHORITY-013",
-    "character_ownership_schema_sha256": "7aad162e75bc33c43f9989557fc96de81e636d4de6611ad08bdbf5994b9aec0f",
+    "character_ownership_schema_sha256": "1fecd58ee3229ec22ff27a3c1891286c96a2441522b05a8777070e502608f261",
     "contract_id": "RI4-SOURCE-PROPOSITION-AUTHORITY",
     "contract_schema_sha256": "2628a141aad204f238f57fdbf8d15015b0d042071b826e8e27dbc2d847b2bd89",
     "implementation_state": "CURRENT_FORMAL_CONTRACT_IMPLEMENTATION_NOT_STARTED",
@@ -207,7 +207,7 @@
     "Status Artifact Contract",
     "Runtime Execution Path Provenance Gate"
   ],
-  "source_internal_commit_sha": "fa0abd4f17657bf306df0704b8595b171daa37b0",
+  "source_internal_commit_sha": "d2c856e5b31415a318e5ad20815b4d5db7b799c8",
   "supersedes": null,
   "v2_compare_semantic_preservation": {
     "comparison_axis": "USE_CASE",
