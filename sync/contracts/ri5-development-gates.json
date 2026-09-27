@@ -118,7 +118,7 @@
       "severity": "BLOCKING"
     },
     {
-      "requirement": "Bind one fresh Source Authority Manifest. SA-CONTEXT-BLOCK-CONTINUITY-001 retains complete intervening-text and boundary proof plus 33 Runtime cases. The bound applicability rule separates fact scope and task compatibility: ESTABLISHED_UNSCOPED alone never admits material; work, target and finite-domain invariance need independent proof. No scope inheritance or reverse platform inference; UNKNOWN fails closed. Its 48 cases remain unexecuted Runtime obligations; static PASS is not Runtime proof.",
+      "requirement": "Bind one fresh Source Authority Manifest. SA-CONTEXT-BLOCK-CONTINUITY-001: complete intervening-text and boundary proof; 33 Runtime cases. SA-SOURCE-CONTAINER-BODY-ATTRIBUTION-001 proves body membership only; class, URL, main, distance, adjacency, or allowlists alone are insufficient. Excluded/duplicate/UNKNOWN structures fail closed. It grants no truth, scope, ownership, compatibility, eligibility or Semantic Acceptance. Its 44 cases remain unexecuted Runtime obligations; prior evidence is not proof.",
       "rule_id": "RI5-SOURCE-AUTHORITY-013",
       "severity": "BLOCKING"
     }
@@ -182,21 +182,26 @@
   },
   "source_authority": {
     "acceptance_cases_sha256": "660e2f0c6d6a1b55ea52c5d82d2802882bf0def4992a00810a86baa5762b819d",
-    "applicability_acceptance_cases_sha256": "f545c9f920f5c6919aeb9199d603cee253492b586788ce6725edb1380d9b9410",
+    "applicability_acceptance_cases_sha256": "c7d64d9ffb50600765e79a5fcac52edfef3440c161b93227ec220b126bebba04",
     "applicability_compatibility_schema_sha256": "aee2960324ecc829a90b2c1202621b243dad058a7fa12c57639911f50748cdf7",
     "applicability_fact_scope_schema_sha256": "5509191801aa5913ab6c4083d499a4e440c661a31950a9ad29d2170cc07969a1",
     "applicability_proposal_schema_sha256": "bac0c93d04fd6284127103b5ba0a97a9c87023841275e32d7e0145ff8a0c026f",
     "applicability_rejection_schema_sha256": "f02cfa834d09f31ba20be62a7abbac1999baff321434ab536f6ba809223f8a66",
     "applicability_rule_id": "SA-APPLICABILITY-TASK-COMPATIBILITY-001",
     "applicability_task_target_schema_sha256": "0e99bfab62c8c7dfdf8427d0d2561863bc9d35e1655c90643c648df7bcf3c71c",
-    "block_continuity_schema_sha256": "eeaea86920914826afb96c8151e3a131a4671719523d0f91ffcf883b81f49f44",
+    "block_continuity_schema_sha256": "4d2770f43d50f600c5770b4f9a3c947bccf4fc9467923fbf761aa5aa51f22bc5",
     "blocking_rule_id": "RI5-SOURCE-AUTHORITY-013",
-    "character_ownership_schema_sha256": "1fecd58ee3229ec22ff27a3c1891286c96a2441522b05a8777070e502608f261",
+    "character_ownership_schema_sha256": "21a2539de1ed8a1ab69fe04e643c754163b3f15f1433d51309199f2b32b30ce7",
+    "container_attribution_acceptance_cases_sha256": "e5b6d5beb6ec61099fdac4d9dd483d7b6e10de496e49ea0766f43d4c96e7a5c8",
+    "container_attribution_proof_schema_sha256": "1e50a42373ad79af72a38719b8c2745c3c31661eb7db1a227c38281685a8b24c",
+    "container_attribution_proposal_schema_sha256": "f038a3e79b8a637dcf7be31bfc095dfcff9d7574b3cf2e29a3aee17e877239dc",
+    "container_attribution_rejection_schema_sha256": "be7b6f66ad65795036377680ced55b5f5a3a4ba07a961bf3c1c916fd463dd458",
+    "container_attribution_rule_id": "SA-SOURCE-CONTAINER-BODY-ATTRIBUTION-001",
     "contract_id": "RI4-SOURCE-PROPOSITION-AUTHORITY",
-    "contract_schema_sha256": "2628a141aad204f238f57fdbf8d15015b0d042071b826e8e27dbc2d847b2bd89",
+    "contract_schema_sha256": "e7f4fa578773e59f7124c9a289e0e45fca3a9bcb0d452cad57d7f255f1cffe8c",
     "implementation_state": "CURRENT_FORMAL_CONTRACT_IMPLEMENTATION_NOT_STARTED",
-    "revision": "2026-09-27.1",
-    "sha256": "4365797db71d59e5593224f811a074edfaca51afcb37f63923a434d9ed6cd11f"
+    "revision": "2026-09-28.1",
+    "sha256": "d06eb6dbffcefdafbed8078cc5a4fcec9becc8a3d95bc1b7566606010ca041ef"
   },
   "source_contracts": [
     "Configuration Management",
@@ -207,7 +212,7 @@
     "Status Artifact Contract",
     "Runtime Execution Path Provenance Gate"
   ],
-  "source_internal_commit_sha": "d2c856e5b31415a318e5ad20815b4d5db7b799c8",
+  "source_internal_commit_sha": "c0b06f8662ce3b31d53b0f919b080318c4e76c23",
   "supersedes": null,
   "v2_compare_semantic_preservation": {
     "comparison_axis": "USE_CASE",
