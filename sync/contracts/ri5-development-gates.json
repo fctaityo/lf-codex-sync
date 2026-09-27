@@ -118,7 +118,7 @@
       "severity": "BLOCKING"
     },
     {
-      "requirement": "Bind one fresh Source Authority Manifest. SA-CONTEXT-BLOCK-CONTINUITY-001: complete intervening-text and boundary proof; 33 Runtime cases. SA-SOURCE-CONTAINER-BODY-ATTRIBUTION-001 proves body membership only; class, URL, main, distance, adjacency, or allowlists alone are insufficient. Excluded/duplicate/UNKNOWN structures fail closed. It grants no truth, scope, ownership, compatibility, eligibility or Semantic Acceptance. Its 44 cases remain unexecuted Runtime obligations; prior evidence is not proof.",
+      "requirement": "Bind one fresh Source Authority Manifest. Container body attribution uses only its two routes under fixed SA-CONTAINER-EXECUTION-PROFILE-001; class, URL, main, distance, adjacency and allowlists alone never suffice, and UNKNOWN fails closed. It grants no truth, scope, ownership, compatibility, eligibility or Semantic Acceptance. Execute 44+50 container, 33 block and 48 applicability cases fresh under Current; predecessor Evidence remains historical.",
       "rule_id": "RI5-SOURCE-AUTHORITY-013",
       "severity": "BLOCKING"
     }
@@ -182,26 +182,38 @@
   },
   "source_authority": {
     "acceptance_cases_sha256": "660e2f0c6d6a1b55ea52c5d82d2802882bf0def4992a00810a86baa5762b819d",
-    "applicability_acceptance_cases_sha256": "c7d64d9ffb50600765e79a5fcac52edfef3440c161b93227ec220b126bebba04",
+    "applicability_acceptance_cases_sha256": "9098de1a3d24ef3ebddde521dd0643f4db519d5b332b4f1bfd9e2879f64d2f3c",
     "applicability_compatibility_schema_sha256": "aee2960324ecc829a90b2c1202621b243dad058a7fa12c57639911f50748cdf7",
     "applicability_fact_scope_schema_sha256": "5509191801aa5913ab6c4083d499a4e440c661a31950a9ad29d2170cc07969a1",
     "applicability_proposal_schema_sha256": "bac0c93d04fd6284127103b5ba0a97a9c87023841275e32d7e0145ff8a0c026f",
     "applicability_rejection_schema_sha256": "f02cfa834d09f31ba20be62a7abbac1999baff321434ab536f6ba809223f8a66",
     "applicability_rule_id": "SA-APPLICABILITY-TASK-COMPATIBILITY-001",
     "applicability_task_target_schema_sha256": "0e99bfab62c8c7dfdf8427d0d2561863bc9d35e1655c90643c648df7bcf3c71c",
-    "block_continuity_schema_sha256": "4d2770f43d50f600c5770b4f9a3c947bccf4fc9467923fbf761aa5aa51f22bc5",
+    "block_continuity_schema_sha256": "bc2e6bd72325b9aca9d84f0c364c18ffe36da6a8e682cf284253d4cf298535e3",
     "blocking_rule_id": "RI5-SOURCE-AUTHORITY-013",
-    "character_ownership_schema_sha256": "21a2539de1ed8a1ab69fe04e643c754163b3f15f1433d51309199f2b32b30ce7",
+    "character_ownership_schema_sha256": "79a06c7051b82c5f402e109f653b12f41333afe5589631f55f328894095bd1ec",
     "container_attribution_acceptance_cases_sha256": "e5b6d5beb6ec61099fdac4d9dd483d7b6e10de496e49ea0766f43d4c96e7a5c8",
-    "container_attribution_proof_schema_sha256": "1e50a42373ad79af72a38719b8c2745c3c31661eb7db1a227c38281685a8b24c",
+    "container_attribution_proof_schema_sha256": "77c3e95dd600d3fc3c35b96f1b5e872f6db5637574e03cbec4640860219cb445",
     "container_attribution_proposal_schema_sha256": "f038a3e79b8a637dcf7be31bfc095dfcff9d7574b3cf2e29a3aee17e877239dc",
     "container_attribution_rejection_schema_sha256": "be7b6f66ad65795036377680ced55b5f5a3a4ba07a961bf3c1c916fd463dd458",
     "container_attribution_rule_id": "SA-SOURCE-CONTAINER-BODY-ATTRIBUTION-001",
+    "container_boundary_link_schema_sha256": "22c58d29d1abea2b601ec066649abaa3eb01772f827898a61bd709cdf8814905",
+    "container_execution_profile_case_count": 50,
+    "container_execution_profile_cases_sha256": "4b192c4bfe3160c928a1362f7f65872190ed6e5bf00eb07e63452101bc0caf88",
+    "container_execution_profile_id": "SA-CONTAINER-EXECUTION-PROFILE-001",
+    "container_execution_profile_payload_sha256": "b3d4d924e099270adfa6d35387d0809035c0d454b6088f6d397753bd2b0a9ef2",
+    "container_execution_profile_runtime_cases_executed": 0,
+    "container_execution_profile_schema_sha256": "b26631e799371895e3465275812f0b852d09ef7f0e26c41109fe692502529180",
+    "container_execution_profile_sha256": "e5829ea15b6afe8218ef6af8f721a6468a97662dc451e180e6c5d71eb0de5c90",
+    "container_implementation_lock_schema_sha256": "4e3a5334afd3f7a4536bdf677e9a803e3785a7c399b9e67e1445f9c377f1f688",
+    "container_reconstruction_bundle_schema_sha256": "6ea7912aededc40d65c0bf9964079add341a615d06930a767714617b515efa80",
     "contract_id": "RI4-SOURCE-PROPOSITION-AUTHORITY",
-    "contract_schema_sha256": "e7f4fa578773e59f7124c9a289e0e45fca3a9bcb0d452cad57d7f255f1cffe8c",
-    "implementation_state": "CURRENT_FORMAL_CONTRACT_IMPLEMENTATION_NOT_STARTED",
-    "revision": "2026-09-28.1",
-    "sha256": "d06eb6dbffcefdafbed8078cc5a4fcec9becc8a3d95bc1b7566606010ca041ef"
+    "contract_schema_sha256": "fd2cf2d445d01e7204be1f180d1e40f53cf00a377d2a651441f5cd448f008fbe",
+    "fresh_runtime_case_obligation_count": 175,
+    "implementation_state": "CURRENT_FORMAL_CONSOLIDATED_PROFILE_IMPLEMENTATION_NOT_STARTED",
+    "revision": "2026-09-28.2",
+    "sha256": "2b815afd5985207ef34b6645f85dfa7c4215b1bb88812109db07b5e1dc65a2d7",
+    "stale_runtime_evidence_count": 82
   },
   "source_contracts": [
     "Configuration Management",
@@ -212,7 +224,7 @@
     "Status Artifact Contract",
     "Runtime Execution Path Provenance Gate"
   ],
-  "source_internal_commit_sha": "c0b06f8662ce3b31d53b0f919b080318c4e76c23",
+  "source_internal_commit_sha": "371abf6f44d0d6575e3165ce2ef55350b9bdf0c8",
   "supersedes": null,
   "v2_compare_semantic_preservation": {
     "comparison_axis": "USE_CASE",
