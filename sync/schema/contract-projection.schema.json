@@ -77,15 +77,22 @@
     "source_authority": {
       "type": "object",
       "additionalProperties": false,
-      "required": ["contract_id", "revision", "sha256", "contract_schema_sha256", "character_ownership_schema_sha256", "block_continuity_schema_sha256", "acceptance_cases_sha256", "blocking_rule_id", "implementation_state"],
+      "required": ["contract_id", "revision", "sha256", "contract_schema_sha256", "character_ownership_schema_sha256", "block_continuity_schema_sha256", "acceptance_cases_sha256", "applicability_fact_scope_schema_sha256", "applicability_task_target_schema_sha256", "applicability_compatibility_schema_sha256", "applicability_proposal_schema_sha256", "applicability_rejection_schema_sha256", "applicability_acceptance_cases_sha256", "applicability_rule_id", "blocking_rule_id", "implementation_state"],
       "properties": {
         "contract_id": {"const": "RI4-SOURCE-PROPOSITION-AUTHORITY"},
-        "revision": {"const": "2026-09-26.2"},
+        "revision": {"const": "2026-09-27.1"},
         "sha256": {"type": "string", "pattern": "^[0-9a-f]{64}$", "x-lf-content-class": "machine-identity"},
         "contract_schema_sha256": {"type": "string", "pattern": "^[0-9a-f]{64}$", "x-lf-content-class": "machine-identity"},
         "character_ownership_schema_sha256": {"type": "string", "pattern": "^[0-9a-f]{64}$", "x-lf-content-class": "machine-identity"},
         "block_continuity_schema_sha256": {"type": "string", "pattern": "^[0-9a-f]{64}$", "x-lf-content-class": "machine-identity"},
         "acceptance_cases_sha256": {"type": "string", "pattern": "^[0-9a-f]{64}$", "x-lf-content-class": "machine-identity"},
+        "applicability_fact_scope_schema_sha256": {"type": "string", "pattern": "^[0-9a-f]{64}$", "x-lf-content-class": "machine-identity"},
+        "applicability_task_target_schema_sha256": {"type": "string", "pattern": "^[0-9a-f]{64}$", "x-lf-content-class": "machine-identity"},
+        "applicability_compatibility_schema_sha256": {"type": "string", "pattern": "^[0-9a-f]{64}$", "x-lf-content-class": "machine-identity"},
+        "applicability_proposal_schema_sha256": {"type": "string", "pattern": "^[0-9a-f]{64}$", "x-lf-content-class": "machine-identity"},
+        "applicability_rejection_schema_sha256": {"type": "string", "pattern": "^[0-9a-f]{64}$", "x-lf-content-class": "machine-identity"},
+        "applicability_acceptance_cases_sha256": {"type": "string", "pattern": "^[0-9a-f]{64}$", "x-lf-content-class": "machine-identity"},
+        "applicability_rule_id": {"const": "SA-APPLICABILITY-TASK-COMPATIBILITY-001", "x-lf-content-class": "machine-identity"},
         "blocking_rule_id": {"const": "RI5-SOURCE-AUTHORITY-013"},
         "implementation_state": {"const": "CURRENT_FORMAL_CONTRACT_IMPLEMENTATION_NOT_STARTED"}
       }

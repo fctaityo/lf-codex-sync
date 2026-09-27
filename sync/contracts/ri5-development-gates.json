@@ -118,7 +118,7 @@
       "severity": "BLOCKING"
     },
     {
-      "requirement": "All stages bind one fresh Source Authority Manifest. SA-CONTEXT-BLOCK-CONTINUITY-001 allows one adjacent BODY paragraph only with immutable capture, complete intervening-text and boundary proof, verified selected-work/context, unique anaphor, explicit role and recomputation. Distance, boundary/topic change, UNKNOWN/ambiguity, remote/transitive inference or scope/relation inheritance rejects. All 33 cases require Runtime evidence; schema validity is not Runtime proof; Writer retry cannot repair authority.",
+      "requirement": "Bind one fresh Source Authority Manifest. SA-CONTEXT-BLOCK-CONTINUITY-001 retains complete intervening-text and boundary proof plus 33 Runtime cases. The bound applicability rule separates fact scope and task compatibility: ESTABLISHED_UNSCOPED alone never admits material; work, target and finite-domain invariance need independent proof. No scope inheritance or reverse platform inference; UNKNOWN fails closed. Its 48 cases remain unexecuted Runtime obligations; static PASS is not Runtime proof.",
       "rule_id": "RI5-SOURCE-AUTHORITY-013",
       "severity": "BLOCKING"
     }
@@ -182,14 +182,21 @@
   },
   "source_authority": {
     "acceptance_cases_sha256": "660e2f0c6d6a1b55ea52c5d82d2802882bf0def4992a00810a86baa5762b819d",
+    "applicability_acceptance_cases_sha256": "f545c9f920f5c6919aeb9199d603cee253492b586788ce6725edb1380d9b9410",
+    "applicability_compatibility_schema_sha256": "aee2960324ecc829a90b2c1202621b243dad058a7fa12c57639911f50748cdf7",
+    "applicability_fact_scope_schema_sha256": "5509191801aa5913ab6c4083d499a4e440c661a31950a9ad29d2170cc07969a1",
+    "applicability_proposal_schema_sha256": "bac0c93d04fd6284127103b5ba0a97a9c87023841275e32d7e0145ff8a0c026f",
+    "applicability_rejection_schema_sha256": "f02cfa834d09f31ba20be62a7abbac1999baff321434ab536f6ba809223f8a66",
+    "applicability_rule_id": "SA-APPLICABILITY-TASK-COMPATIBILITY-001",
+    "applicability_task_target_schema_sha256": "0e99bfab62c8c7dfdf8427d0d2561863bc9d35e1655c90643c648df7bcf3c71c",
     "block_continuity_schema_sha256": "dc1a4bb6681376dd312145ede4178b23b9e934feec20501228e1284d09daedb4",
     "blocking_rule_id": "RI5-SOURCE-AUTHORITY-013",
     "character_ownership_schema_sha256": "7aad162e75bc33c43f9989557fc96de81e636d4de6611ad08bdbf5994b9aec0f",
     "contract_id": "RI4-SOURCE-PROPOSITION-AUTHORITY",
-    "contract_schema_sha256": "d857765d74f56c88352ca0f357d22cae9418cdf93ddd099f6ae18a8683e1d032",
+    "contract_schema_sha256": "2628a141aad204f238f57fdbf8d15015b0d042071b826e8e27dbc2d847b2bd89",
     "implementation_state": "CURRENT_FORMAL_CONTRACT_IMPLEMENTATION_NOT_STARTED",
-    "revision": "2026-09-26.2",
-    "sha256": "1ed177489fdc350fcb3ee04c5ddcb0ccf0ab534e8e7c9a4c9654df3ef74de2c1"
+    "revision": "2026-09-27.1",
+    "sha256": "4365797db71d59e5593224f811a074edfaca51afcb37f63923a434d9ed6cd11f"
   },
   "source_contracts": [
     "Configuration Management",
@@ -200,7 +207,7 @@
     "Status Artifact Contract",
     "Runtime Execution Path Provenance Gate"
   ],
-  "source_internal_commit_sha": "5c36e2d438b558829e19d16f375771cc96d836c6",
+  "source_internal_commit_sha": "fa0abd4f17657bf306df0704b8595b171daa37b0",
   "supersedes": null,
   "v2_compare_semantic_preservation": {
     "comparison_axis": "USE_CASE",
